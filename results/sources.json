@@ -1,0 +1,462 @@
+[
+  {
+    "destination": "results/h1_validation/FINDINGS.md",
+    "source": "latent-map-global-study/outputs/global_branch_followup_v1/reports/FINDINGS.md",
+    "sha256": "8ee5532c49c95ac3465a45478d0633e8a9b5246547a0a58397510c78a47991bb"
+  },
+  {
+    "destination": "results/h1_validation/dimension_validation.csv",
+    "source": "latent-map-global-study/outputs/global_branch_followup_v1/reports/dimension_validation.csv",
+    "sha256": "5362217927720d206433323450796481e577ed46c7f6f05bcd28d7390fe446ce"
+  },
+  {
+    "destination": "results/h1_validation/global_diagnostics.csv",
+    "source": "latent-map-global-study/outputs/global_branch_followup_v1/reports/global_diagnostics.csv",
+    "sha256": "c464cd0e833afb0c55da6844f7c2efa472fed9db5e7c81dce1223a9201237208"
+  },
+  {
+    "destination": "results/h1_validation/h1_contrast_summary.csv",
+    "source": "latent-map-global-study/outputs/global_branch_followup_v1/reports/h1_contrast_summary.csv",
+    "sha256": "c77257d1e9a9afd0fc1ef46bb36ee33c83facae92ba364e85c3f17604a3e02d8"
+  },
+  {
+    "destination": "results/h1_validation/h1_seed_contrasts.csv",
+    "source": "latent-map-global-study/outputs/global_branch_followup_v1/reports/h1_seed_contrasts.csv",
+    "sha256": "0c75985955d069aa4b665f832fa9376126faef620f891d4a7483f1429eb193a9"
+  },
+  {
+    "destination": "results/h1_validation/h1_validation.csv",
+    "source": "latent-map-global-study/outputs/global_branch_followup_v1/reports/h1_validation.csv",
+    "sha256": "6c7dcb97e82d4a31f65365c75d4ffef6118faa4d504dab33258e970b48160de9"
+  },
+  {
+    "destination": "results/h1_test/FINDINGS.md",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/FINDINGS.md",
+    "sha256": "af45ae37b4fc7183632cb6756b5ce468dd4afef36633bb7ca134073a29628cb1"
+  },
+  {
+    "destination": "results/h1_test/README.md",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/README.md",
+    "sha256": "416e8362029b3a5ec35b10f893a83b6595d911a5956234b6c1e25a8a61be5a95"
+  },
+  {
+    "destination": "results/h1_test/dimension_paired_per_image.csv",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/dimension_paired_per_image.csv",
+    "sha256": "f4bdbb6f0b2ce8effe915205a3819640e339700543ddbe1899bea9cf46e53186"
+  },
+  {
+    "destination": "results/h1_test/dimension_test.csv",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/dimension_test.csv",
+    "sha256": "977df76e7b0bce589e65b054889fb255da9d19f2a67944de0e6d1bae86f03132"
+  },
+  {
+    "destination": "results/h1_test/h1_paired_per_image.csv",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/h1_paired_per_image.csv",
+    "sha256": "3e0f62c55e0ec10fc351780530b2c817e627bd5b1e85293f809fee568ec1aff1"
+  },
+  {
+    "destination": "results/h1_test/h1_paired_summary.csv",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/h1_paired_summary.csv",
+    "sha256": "237d0961922c6fd2754664f1b72e6ec078711e4b02319cd74bec1bd6e83b5819"
+  },
+  {
+    "destination": "results/h1_test/h1_seed_contrasts.csv",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/h1_seed_contrasts.csv",
+    "sha256": "f65945b15c268713aad1efd5bcd16a84e42de5d8c7fd653e8301b044e45ac454"
+  },
+  {
+    "destination": "results/h1_test/h1_seed_summary.csv",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/h1_seed_summary.csv",
+    "sha256": "2eceacc633d0598082106385b6217bf84db8ae48ec39844ba7e2c36b1a044dd2"
+  },
+  {
+    "destination": "results/h1_test/results.csv",
+    "source": "latent-map-global-test/outputs/global_followup_test90_v1/results.csv",
+    "sha256": "c80a683bc953540c686722953e2f3878ce6cb9a1735678c0a36b1021b3a7a06a"
+  },
+  {
+    "destination": "results/h2_validation/FINDINGS.md",
+    "source": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/reports/FINDINGS.md",
+    "sha256": "881a4a2ced02f078479b6bfb504ac95c8d57b75022c2dfa4a52934713e0bdb92"
+  },
+  {
+    "destination": "results/h2_validation/paired_by_seed.csv",
+    "source": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/reports/paired_by_seed.csv",
+    "sha256": "29a3ac3562f6c04f0d592356185f1c7a1097ac20b94d3f5bc63087e3b3b3fcde"
+  },
+  {
+    "destination": "results/h2_validation/paired_per_image.csv",
+    "source": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/reports/paired_per_image.csv",
+    "sha256": "96801d6dfc909de1ff0b48834c4dc96ed91f382a4ba96c2b1ecdbed72e845a8e"
+  },
+  {
+    "destination": "results/h2_validation/validation_summary.csv",
+    "source": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/reports/validation_summary.csv",
+    "sha256": "abf4f1121a3330e1486766e3922f96dd899293e1baa625b80ba6c05fe347af77"
+  },
+  {
+    "destination": "results/h2_test/FINDINGS.md",
+    "source": "latent-map-conditioning-test/outputs/conditioning_pilots_test90_v1/FINDINGS.md",
+    "sha256": "95edf5941dc75becc02fe0a1c5d1defd453d7e75d26a78d94d51967b29aa443b"
+  },
+  {
+    "destination": "results/h2_test/README.md",
+    "source": "latent-map-conditioning-test/outputs/conditioning_pilots_test90_v1/README.md",
+    "sha256": "7ad2b3fb2d286685a2574545a47d18fddda58d15474fcf4b5331fa58b3572707"
+  },
+  {
+    "destination": "results/h2_test/paired_per_image.csv",
+    "source": "latent-map-conditioning-test/outputs/conditioning_pilots_test90_v1/paired_per_image.csv",
+    "sha256": "fe5c4f9237c96648664f71f048ba34c3d79bb47f2da4990bd88ce5ff5df22077"
+  },
+  {
+    "destination": "results/h2_test/paired_test_differences.csv",
+    "source": "latent-map-conditioning-test/outputs/conditioning_pilots_test90_v1/paired_test_differences.csv",
+    "sha256": "e67cbc484abdfc0581f4ab85f66e3c16255fe09b4da45848b02d1a268dfbfb45"
+  },
+  {
+    "destination": "results/h2_test/results.csv",
+    "source": "latent-map-conditioning-test/outputs/conditioning_pilots_test90_v1/results.csv",
+    "sha256": "3ebc3a054efd999930142986e7dee34ad8d647a548b716c4e6c3aa1fd53849c3"
+  },
+  {
+    "destination": "results/global_replication/FINDINGS.md",
+    "source": "latent-map-global-replication/outputs/global_dimension_replication_v1/reports/FINDINGS.md",
+    "sha256": "a30e7db6ded33a630c6a5b4c2e3bfef7a848c8790e325594d1e11abed96fe359"
+  },
+  {
+    "destination": "results/global_replication/global_diagnostics.csv",
+    "source": "latent-map-global-replication/outputs/global_dimension_replication_v1/reports/global_diagnostics.csv",
+    "sha256": "06ca039eab0d3959bd024578e5ae55577fc070f97462ee60eea9fee5617adaa1"
+  },
+  {
+    "destination": "results/global_replication/paired_per_image.csv",
+    "source": "latent-map-global-replication/outputs/global_dimension_replication_v1/reports/paired_per_image.csv",
+    "sha256": "12984a9d768063302d9fa597c44373b58763746a03944dcc07e9e7f16cf1f88e"
+  },
+  {
+    "destination": "results/global_replication/paired_seed_contrasts.csv",
+    "source": "latent-map-global-replication/outputs/global_dimension_replication_v1/reports/paired_seed_contrasts.csv",
+    "sha256": "dd774b52fc2eeea5a4af78e82a6efb7bdc9bc4b0fe7cee8a79d0c85ae56b200d"
+  },
+  {
+    "destination": "results/global_replication/paired_summary.csv",
+    "source": "latent-map-global-replication/outputs/global_dimension_replication_v1/reports/paired_summary.csv",
+    "sha256": "ca734230aae8b718a06246aef8b8c46e7040e94ec3ac1f1925deca7846d2af94"
+  },
+  {
+    "destination": "results/global_replication/seed_summary.csv",
+    "source": "latent-map-global-replication/outputs/global_dimension_replication_v1/reports/seed_summary.csv",
+    "sha256": "51a7d7b03b051646e78fe7bf59fc56fb94e5f681c69ba680462a6d8bd00a4cb5"
+  },
+  {
+    "destination": "results/global_replication/validation_cells.csv",
+    "source": "latent-map-global-replication/outputs/global_dimension_replication_v1/reports/validation_cells.csv",
+    "sha256": "93d06a4bc151682753b15f4cc83d49ae181b7467a569351d52a16165b4ef78b6"
+  },
+  {
+    "destination": "results/unet_validation/FINDINGS.md",
+    "source": "latent-map-unet-replication/outputs/unet_map_replication_v1/reports/FINDINGS.md",
+    "sha256": "c1e7b9058a3952659805095c33fdd28cf23ca9cbf2ee4cacdcd7eaf7a5f9b2a8"
+  },
+  {
+    "destination": "results/unet_validation/PAPER_FEASIBILITY.md",
+    "source": "latent-map-unet-replication/outputs/unet_map_replication_v1/reports/PAPER_FEASIBILITY.md",
+    "sha256": "eebb8d5b6a390dc307ffbd5fef72b026943aefa2a7b8bde9e0e3f35e72816ede"
+  },
+  {
+    "destination": "results/unet_validation/common_horizon_scores.csv",
+    "source": "latent-map-unet-replication/outputs/unet_map_replication_v1/reports/common_horizon_scores.csv",
+    "sha256": "9173cb5a08cd04d09d31f15d0a88a085f5a7fba3eb356daa3a96e6fef5f43223"
+  },
+  {
+    "destination": "results/unet_validation/convergence.csv",
+    "source": "latent-map-unet-replication/outputs/unet_map_replication_v1/reports/convergence.csv",
+    "sha256": "fe524ae790647e136e0da1f8fa668d05d75b1a1a6a3eec67e643677d7a30836d"
+  },
+  {
+    "destination": "results/unet_validation/paired_seed_summary.csv",
+    "source": "latent-map-unet-replication/outputs/unet_map_replication_v1/reports/paired_seed_summary.csv",
+    "sha256": "0d78f9d0f484fbfe4128849303ebee2182dec00a6f6c679ac7f824bcabbfc6af"
+  },
+  {
+    "destination": "results/unet_validation/paired_validation_differences.csv",
+    "source": "latent-map-unet-replication/outputs/unet_map_replication_v1/reports/paired_validation_differences.csv",
+    "sha256": "e5af2c3adebb92c1dd2e0ce54774d3976b20ca7d87356307e72032e067012a3a"
+  },
+  {
+    "destination": "results/unet_validation/results.csv",
+    "source": "latent-map-unet-replication/outputs/unet_map_replication_v1/reports/results.csv",
+    "sha256": "e08f50930f3de51dad6326a0e17828ed1069044b7d8abb98c8185afcb6642690"
+  },
+  {
+    "destination": "results/unet_validation/seed_summary.csv",
+    "source": "latent-map-unet-replication/outputs/unet_map_replication_v1/reports/seed_summary.csv",
+    "sha256": "dbc8418982a49b6578bbe263394dcd9791cecfa111947688a9ac3c1989008e6b"
+  },
+  {
+    "destination": "results/unet_test/FINDINGS.md",
+    "source": "latent-map-unet-test/outputs/unet_uieb_test90_v1/FINDINGS.md",
+    "sha256": "b3793ad2713836a80dbbaa78ae1ab8ba7e4e6260a6be34f31d3b5d13c14951b4"
+  },
+  {
+    "destination": "results/unet_test/paired_seed_differences.csv",
+    "source": "latent-map-unet-test/outputs/unet_uieb_test90_v1/paired_seed_differences.csv",
+    "sha256": "96563802bf9d08e208771c07ba115b46a08634898bf440a0122349d94600c83b"
+  },
+  {
+    "destination": "results/unet_test/results.csv",
+    "source": "latent-map-unet-test/outputs/unet_uieb_test90_v1/results.csv",
+    "sha256": "384e4514b66d7a09454273bbfbe43e211ddc61033ed48f17f72c8b8cdbdb94e9"
+  },
+  {
+    "destination": "results/unet_test/seed_summary.csv",
+    "source": "latent-map-unet-test/outputs/unet_uieb_test90_v1/seed_summary.csv",
+    "sha256": "f69e2eb91cbdf70e7341eb55d82abdb9b5e65b5d1767ddd575160a342282022d"
+  },
+  {
+    "destination": "results/backbone/FINDINGS.md",
+    "source": "latent-map-diagnostics/outputs/map_diagnostics_v1/reports/FINDINGS.md",
+    "sha256": "c6ee7d15ee7d72b0255d498b036590c35b08374e249134651ae403f27a89235d"
+  },
+  {
+    "destination": "results/backbone/paired_validation_differences.csv",
+    "source": "latent-map-diagnostics/outputs/map_diagnostics_v1/reports/paired_validation_differences.csv",
+    "sha256": "05c4f29bb9227b4770e9ad5ca9232adb43825a7b436c45c908c99684f9b7f7d6"
+  },
+  {
+    "destination": "results/backbone/results.csv",
+    "source": "latent-map-diagnostics/outputs/map_diagnostics_v1/reports/results.csv",
+    "sha256": "b1c1e253f900d6946f9bd65e261f301357f43053104c87430f085197d51bcf31"
+  },
+  {
+    "destination": "results/initialization/FINDINGS.md",
+    "source": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/reports/FINDINGS.md",
+    "sha256": "37c93a69424fa23539ed501be661f76495b7620a0db33d389e4f64806249ad4c"
+  },
+  {
+    "destination": "results/initialization/common_horizon_scores.csv",
+    "source": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/reports/common_horizon_scores.csv",
+    "sha256": "22d7a816cb7d64108f8d46fe8411ebf1518a7083813a10921fdc44ebc237554e"
+  },
+  {
+    "destination": "results/initialization/convergence.csv",
+    "source": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/reports/convergence.csv",
+    "sha256": "4c381a93bc17c9c559667eb39ccd80b64a82977a433a811be376c24e1f567017"
+  },
+  {
+    "destination": "results/initialization/paired_validation_differences.csv",
+    "source": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/reports/paired_validation_differences.csv",
+    "sha256": "98d25b201b071e86d0f330176f80db8222252679c7f8484968201bd75e9dabfe"
+  },
+  {
+    "destination": "results/initialization/results.csv",
+    "source": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/reports/results.csv",
+    "sha256": "0e3c65d51a7c5931f1169d2d8086eded36474cd67c4fb316c0e4f1133af41c67"
+  },
+  {
+    "destination": "results/lol_transfer/FINAL_LOL_RESULTS.md",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/FINAL_LOL_RESULTS.md",
+    "sha256": "8940e02b5e8de27c43c201e1ed316836eb64d5e5746af2f2323e7b1b0ee7a360"
+  },
+  {
+    "destination": "results/lol_transfer/FINDINGS.md",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/FINDINGS.md",
+    "sha256": "0d89754b34c7032de741b93b87d21ac4c05fda9a13dbe17ea289be5cc44cf19a"
+  },
+  {
+    "destination": "results/lol_transfer/cross_seed_summary.csv",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/cross_seed_summary.csv",
+    "sha256": "235e5d30ef0a1b485610eed7e4212c43a3d4ddd25b47690ad91fbd1ee4fcf53a"
+  },
+  {
+    "destination": "results/lol_transfer/final_lol_paired_differences.csv",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/final_lol_paired_differences.csv",
+    "sha256": "6fd13cea5ceb541d5cabc86041f021f44728ef086fd60a731c66bc35b0d54131"
+  },
+  {
+    "destination": "results/lol_transfer/final_lol_results.csv",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/final_lol_results.csv",
+    "sha256": "f41c50c425357b8bce23ccadcb4351f0a17bad9f378e0c7c3eaad39e6c5319d5"
+  },
+  {
+    "destination": "results/lol_transfer/final_lol_summary.csv",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/final_lol_summary.csv",
+    "sha256": "3fcc5483335b729de4139df636af12d47f55b8a23f03a5bac12abffbd136f0ec"
+  },
+  {
+    "destination": "results/lol_transfer/paired_seed_differences.csv",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/paired_seed_differences.csv",
+    "sha256": "2af348347aa14e45d7f6012bdd9b255059d009b5d3b74b1aab54c5b4e8d2557f"
+  },
+  {
+    "destination": "results/lol_transfer/paired_validation_seed_differences.csv",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/paired_validation_seed_differences.csv",
+    "sha256": "363011e5e52fd8fecfbe9f06ff486d78054517711a3e662476a81dc137f2ade1"
+  },
+  {
+    "destination": "results/lol_transfer/run_inventory.csv",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/run_inventory.csv",
+    "sha256": "eb920def7537658a0f4c2b660ea5149d17189be6a2903f30e8e700ae51e35a95"
+  },
+  {
+    "destination": "results/lol_transfer/validation_summary.csv",
+    "source": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/reports/validation_summary.csv",
+    "sha256": "b80e3a15589eca306889e544070ac7fcee16109f2f1ce2dc7837dc346fecf24a"
+  },
+  {
+    "destination": "results/architecture_screen/FINDINGS.md",
+    "source": "latent-map-unet-screen/outputs/unet_arch_screen_v1/FINDINGS.md",
+    "sha256": "16cef588a9a3efa871031420955fa81f6bc7003846d09771f2641ea2c7f126b6"
+  },
+  {
+    "destination": "results/architecture_screen/results.csv",
+    "source": "latent-map-unet-screen/outputs/unet_arch_screen_v1/results.csv",
+    "sha256": "90888d5962c3c9fd8bc665d15260e661dd3cae594b7d6420e228c300835d8b39"
+  },
+  {
+    "destination": "results/architecture_test/FINDINGS.md",
+    "source": "latent-map-unet-screen-test/outputs/unet_arch_screen_test_v1/FINDINGS.md",
+    "sha256": "87668cae760a6f6a69d421eef1aa312a9ad197d564807228346f3f6fbc20d8e9"
+  },
+  {
+    "destination": "results/architecture_test/paired_test_differences.csv",
+    "source": "latent-map-unet-screen-test/outputs/unet_arch_screen_test_v1/paired_test_differences.csv",
+    "sha256": "b983be64892e11fdaee5541f74a9d78bf8b40bc3a8f73eab81d390946b93d1b2"
+  },
+  {
+    "destination": "results/architecture_test/results.csv",
+    "source": "latent-map-unet-screen-test/outputs/unet_arch_screen_test_v1/results.csv",
+    "sha256": "f239874362e53a8cba61673c0486bade5c16c2ba2142005fe1cc399e772f0493"
+  },
+  {
+    "destination": "results/reproduction/FINDINGS.md",
+    "source": "uieb-latent-reproduction/outputs/original_uieb_seed0_v2/reports/FINDINGS.md",
+    "sha256": "2c2512bba9e1e80f58c52eab882728e4656aa4f19ff4978dd3616d560a4b9bbd"
+  },
+  {
+    "destination": "results/reproduction/results.csv",
+    "source": "uieb-latent-reproduction/outputs/original_uieb_seed0_v2/reports/results.csv",
+    "sha256": "9afa518fee4b9e6ec4a38f9d0e6232c7a5be5166e6e80f0d81ee7a3df51fe311"
+  },
+  {
+    "destination": "results/fresh_pilot/FINDINGS.md",
+    "source": "latent-map-enhancement/outputs/predicted_maps_v1/reports/FINDINGS.md",
+    "sha256": "13e969c17ca8bdb807e98c97579e2d5f59d3aa9b8fe113ef8a0921d2f8934cdc"
+  },
+  {
+    "destination": "results/fresh_pilot/PILOT_FINDINGS.md",
+    "source": "latent-map-enhancement/outputs/predicted_maps_v1/reports/PILOT_FINDINGS.md",
+    "sha256": "9d93e07a49e8d4d5dbcc2232c4dc61336b56f76ebcdadade814dcd65a7cf4215"
+  },
+  {
+    "destination": "results/fresh_pilot/cross_seed_summary.csv",
+    "source": "latent-map-enhancement/outputs/predicted_maps_v1/reports/cross_seed_summary.csv",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "destination": "results/fresh_pilot/paired_seed_differences.csv",
+    "source": "latent-map-enhancement/outputs/predicted_maps_v1/reports/paired_seed_differences.csv",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "destination": "results/fresh_pilot/pilot_validation.csv",
+    "source": "latent-map-enhancement/outputs/predicted_maps_v1/reports/pilot_validation.csv",
+    "sha256": "418e331aac41cb0bf9a0697bb9661c47a4173c648b7687f5e6a9b6eca9b66ad8"
+  },
+  {
+    "destination": "results/fresh_pilot/run_inventory.csv",
+    "source": "latent-map-enhancement/outputs/predicted_maps_v1/reports/run_inventory.csv",
+    "sha256": "b930dc597a1f23f0d877052dea0049480481db2fca1711acf7d11ef631848383"
+  },
+  {
+    "destination": "results/components/FINDINGS.md",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/FINDINGS.md",
+    "sha256": "8dbe9ad79e4b13951d9c7b3a0f4fb2bf994d6506b6bbbaa7d8b53bbfafa8bba5"
+  },
+  {
+    "destination": "results/components/bounded_zero_init_normal.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/bounded_zero_init_normal.csv",
+    "sha256": "b68537160c48e53102b3c6f1d0c136031c807d779292a255e52d9d737fad769e"
+  },
+  {
+    "destination": "results/components/bounded_zero_init_spatial_mean.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/bounded_zero_init_spatial_mean.csv",
+    "sha256": "75b45416cb736bcc80bc8d3289d80dc390d1f50f539a7c709a249c20c4f21cae"
+  },
+  {
+    "destination": "results/components/bounded_zero_init_swap_global.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/bounded_zero_init_swap_global.csv",
+    "sha256": "17228a4fe1706efaaebfeb3f069b35984734c3374508190aa490dc3e353f9c9d"
+  },
+  {
+    "destination": "results/components/bounded_zero_init_swap_spatial.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/bounded_zero_init_swap_spatial.csv",
+    "sha256": "a141a074a157b1924240f274f9e542d70b7f16499be4889dd3c264fa9abc541c"
+  },
+  {
+    "destination": "results/components/bounded_zero_init_zero_both.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/bounded_zero_init_zero_both.csv",
+    "sha256": "8a9eb4504738fc58757c320c23502d0eda9f0ca4a14e41327f6d4d5d5cb832b2"
+  },
+  {
+    "destination": "results/components/bounded_zero_init_zero_global.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/bounded_zero_init_zero_global.csv",
+    "sha256": "1e5e1ad2b4734f290b31faa400c94ccc43858ecfe1d1d81273c5aecef9039539"
+  },
+  {
+    "destination": "results/components/bounded_zero_init_zero_spatial.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/bounded_zero_init_zero_spatial.csv",
+    "sha256": "d02b608f746e78408adc335bede18b8e6916710e0a03b886e8017a6d2dc48b2a"
+  },
+  {
+    "destination": "results/components/paired_images.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/paired_images.csv",
+    "sha256": "7a7c0f497573ce2aaf7a7331b79eb2538f4ce8162d4c30b6ba8c95c035eaecfd"
+  },
+  {
+    "destination": "results/components/rgb_normal.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/rgb_normal.csv",
+    "sha256": "eed330a8fe0ed6ce09e26798bc01f168f6807f786eb36cb028486bd9b1e96d7a"
+  },
+  {
+    "destination": "results/components/summary.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/summary.csv",
+    "sha256": "43d7cc3404afe4545ff278070d080713d126aa48ef645cb256ef4f0513474f02"
+  },
+  {
+    "destination": "results/components/unbounded_zero_init_normal.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/unbounded_zero_init_normal.csv",
+    "sha256": "9c8df923007e29f93ac8a9b57cd4bbbdf87496a2b7007b9b945532701e594586"
+  },
+  {
+    "destination": "results/components/unbounded_zero_init_spatial_mean.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/unbounded_zero_init_spatial_mean.csv",
+    "sha256": "3db6eda40c8a5a1a570752f8fe84e71d747f4abbd478d605fedd8baaf7a7550b"
+  },
+  {
+    "destination": "results/components/unbounded_zero_init_swap_global.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/unbounded_zero_init_swap_global.csv",
+    "sha256": "bc33039dbb7c532dc9e52d2b536c494cd2100e42869856614127a5e3340300d5"
+  },
+  {
+    "destination": "results/components/unbounded_zero_init_swap_spatial.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/unbounded_zero_init_swap_spatial.csv",
+    "sha256": "97d939d98a0a6f01eef42c89caef8b0e9f5aee02e9fdfb19aa8d3d5ea91578db"
+  },
+  {
+    "destination": "results/components/unbounded_zero_init_zero_both.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/unbounded_zero_init_zero_both.csv",
+    "sha256": "b51f3b24a985a588bdd62bce13fbb0cabc6db2cb35d9024bb157934fc3a68aca"
+  },
+  {
+    "destination": "results/components/unbounded_zero_init_zero_global.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/unbounded_zero_init_zero_global.csv",
+    "sha256": "5afd1b50e129313e480fcc4a4f914924654078c40d390698ed1d089deb4d0ba6"
+  },
+  {
+    "destination": "results/components/unbounded_zero_init_zero_spatial.csv",
+    "source": "latent-map-component-ablation/outputs/map_components_v1/unbounded_zero_init_zero_spatial.csv",
+    "sha256": "a82a432fedae4c4fc08cfcb22971eb6fe234f6976bd0240600e0cd22aa8085e9"
+  }
+]

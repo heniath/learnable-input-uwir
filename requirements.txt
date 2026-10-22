@@ -1,0 +1,8 @@
+# Install the CUDA 12.8 PyTorch wheels separately; see README.
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.4.6
+Pillow==12.3.0
+scipy==1.17.1
+scikit-image==0.25.2
+kornia==0.7.3

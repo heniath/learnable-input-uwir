@@ -1,0 +1,4 @@
+seed,condition,baseline,delta_psnr,delta_ssim,psnr_win_fraction
+0,B2_global_bottleneck,B0_input,-0.016288868453287232,0.002555949240922928,0.5
+0,B1_spatial_skip,B0_input,-0.16525182127121849,-0.004432525485754013,0.45
+0,B3_combined,B0_input,0.08121101043695442,0.0009078219532966614,0.6

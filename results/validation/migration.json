@@ -1,0 +1,557 @@
+{
+  "passed": true,
+  "environment": {
+    "python": "3.11.16",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "numpy": "2.4.6",
+      "Pillow": "12.3.0",
+      "scipy": "1.17.1",
+      "scikit-image": "0.25.2",
+      "kornia": "0.7.3"
+    },
+    "cuda_runtime": "12.8",
+    "cudnn": 91900,
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+  },
+  "preprocessing_exact": true,
+  "initialization_checks": [
+    {
+      "recipe": "h1_pilot",
+      "condition": "A0_rgb",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A1_spatial",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A2_global",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A3_both",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "h2_pilot",
+      "condition": "B0_input",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "h2_pilot",
+      "condition": "B1_spatial_skip",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "h2_pilot",
+      "condition": "B2_global_bottleneck",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "h2_pilot",
+      "condition": "B3_combined",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d1",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d3",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d6",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d12",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "unet_baselines",
+      "condition": "rgb",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "unet_baselines",
+      "condition": "bounded",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "unet_baselines",
+      "condition": "unbounded",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "unet_baselines",
+      "condition": "capacity",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "condition": "rgb",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "condition": "bounded",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "condition": "unbounded",
+      "initial_state_and_forward_exact": true
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "condition": "capacity",
+      "initial_state_and_forward_exact": true
+    }
+  ],
+  "checkpoint_checks": [
+    {
+      "recipe": "h1_pilot",
+      "condition": "A0_rgb",
+      "seed": 0,
+      "checkpoint_sha256": "9ea06ec0dfd69fc00508615698fe66a01bf159f08679236d7547e7c62b5cbbb7",
+      "validation": {
+        "psnr": 19.993086115817203,
+        "ssim": 0.8703164048492908
+      },
+      "drift": {
+        "psnr": 7.105427357601002e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A1_spatial",
+      "seed": 0,
+      "checkpoint_sha256": "66525e5504ebdba7950748bb7be02e1a416a17b4ebbcc1552e2026cb3fdb6685",
+      "validation": {
+        "psnr": 20.08367088397842,
+        "ssim": 0.8743062973022461
+      },
+      "drift": {
+        "psnr": 7.105427357601002e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A2_global",
+      "seed": 0,
+      "checkpoint_sha256": "b41a7791ebdf87c9606ad2a12e1fd60b1f757f89baa4a3a881a808eecbd44364",
+      "validation": {
+        "psnr": 21.898144648674112,
+        "ssim": 0.9038195580244064
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A3_both",
+      "seed": 0,
+      "checkpoint_sha256": "4b9c543d7ea1c913fe0a7a350277873229fede10af978e53427965daedbbdea0",
+      "validation": {
+        "psnr": 21.949467124680776,
+        "ssim": 0.9049634680151939
+      },
+      "drift": {
+        "psnr": 3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A0_rgb",
+      "seed": 1,
+      "checkpoint_sha256": "dd771b5f925a9852ed7b1e707a70bc0e1192becd4ba6d803d18f19cb5535cadc",
+      "validation": {
+        "psnr": 20.21737982218237,
+        "ssim": 0.8741971511393786
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A1_spatial",
+      "seed": 1,
+      "checkpoint_sha256": "828aed7af5c3505072f9aedd829e4fa7757a80e2b29dfecbd1f7e0c8396e582e",
+      "validation": {
+        "psnr": 20.077830954307256,
+        "ssim": 0.8774170231074094
+      },
+      "drift": {
+        "psnr": -3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A2_global",
+      "seed": 1,
+      "checkpoint_sha256": "5ceb2601aec641a1098512338bec16fe5cb49289fe9f3019175d9abbceea1ccf",
+      "validation": {
+        "psnr": 21.973440556512582,
+        "ssim": 0.9081448026001453
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A3_both",
+      "seed": 1,
+      "checkpoint_sha256": "6f6c80216b986be9eaaf0971228aa6f1b4a156ed95c874b65e12ed0859b31f6f",
+      "validation": {
+        "psnr": 21.795307404813542,
+        "ssim": 0.9007956832647324
+      },
+      "drift": {
+        "psnr": 7.105427357601002e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A0_rgb",
+      "seed": 2,
+      "checkpoint_sha256": "0e73445a82f4a281252b2e744cf93ef59bf777c94449dc7a5e1bb266e8538524",
+      "validation": {
+        "psnr": 20.09625919303389,
+        "ssim": 0.8786224026232958
+      },
+      "drift": {
+        "psnr": -3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A1_spatial",
+      "seed": 2,
+      "checkpoint_sha256": "ea1cb8a9572b7c0c0a971582159ac6849e5a49e36a48716c68df4316a8557ab6",
+      "validation": {
+        "psnr": 19.98542106498241,
+        "ssim": 0.8703726448118687
+      },
+      "drift": {
+        "psnr": -3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A2_global",
+      "seed": 2,
+      "checkpoint_sha256": "201b69c42c1b54bf0e6146792999529045ff8718355284a089223d69e8e1eb08",
+      "validation": {
+        "psnr": 22.092484831919087,
+        "ssim": 0.9090146340429783
+      },
+      "drift": {
+        "psnr": 1.4210854715202004e-14,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h1_pilot",
+      "condition": "A3_both",
+      "seed": 2,
+      "checkpoint_sha256": "0e2640d852522d70052a38bed7ab504143860af419eb0952295b6ce42d3fd99d",
+      "validation": {
+        "psnr": 22.042308050742204,
+        "ssim": 0.9074793048202991
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h2_pilot",
+      "condition": "B0_input",
+      "seed": 0,
+      "checkpoint_sha256": "fe41d41ee59b600ad6b5490ffacdb2cdbd783d7b5419fa2ed62862d1557d931a",
+      "validation": {
+        "psnr": 21.98475104756731,
+        "ssim": 0.9056381106376648
+      },
+      "drift": {
+        "psnr": 3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h2_pilot",
+      "condition": "B1_spatial_skip",
+      "seed": 0,
+      "checkpoint_sha256": "488505c0b748ef3de57b0a540998062f3acdfc0d4f200b7d58c1d48878793d21",
+      "validation": {
+        "psnr": 21.819499226296095,
+        "ssim": 0.9012055851519107
+      },
+      "drift": {
+        "psnr": 3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h2_pilot",
+      "condition": "B2_global_bottleneck",
+      "seed": 0,
+      "checkpoint_sha256": "fec6b921e4fedeac115efc57a58fd1f702494327bed7c66f5a05f299bd27d345",
+      "validation": {
+        "psnr": 21.96846217911402,
+        "ssim": 0.9081940598785877
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "h2_pilot",
+      "condition": "B3_combined",
+      "seed": 0,
+      "checkpoint_sha256": "fe6fde357549423fc74e4464b922fd3edbf3964bac08d85845594dee479cf945",
+      "validation": {
+        "psnr": 22.065962058004256,
+        "ssim": 0.9065459325909615
+      },
+      "drift": {
+        "psnr": -1.0658141036401503e-14,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d1",
+      "seed": 0,
+      "checkpoint_sha256": "21c9b7af2f8eb4f6f333a0f94353116f564a792598ab9a3634bc081ad322f9b1",
+      "validation": {
+        "psnr": 20.77942827083467,
+        "ssim": 0.8914539694786072
+      },
+      "drift": {
+        "psnr": -1.0658141036401503e-14,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d6",
+      "seed": 0,
+      "checkpoint_sha256": "b30d25f69ec28e3082e45685417807928ee8a37866a18506cce107b56882f582",
+      "validation": {
+        "psnr": 22.118145499519063,
+        "ssim": 0.9081563778221607
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d12",
+      "seed": 0,
+      "checkpoint_sha256": "b4363e7f428011a0e1472f88fd384e734e68d239fbdd9a4035e7c8eb24262a80",
+      "validation": {
+        "psnr": 22.07535192815907,
+        "ssim": 0.9072851434350013
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d6",
+      "seed": 1,
+      "checkpoint_sha256": "f9ad08a974faa7a6aada2e5cdd698220338992f13ebbc556e4b3c074e8ad777c",
+      "validation": {
+        "psnr": 22.28947569488785,
+        "ssim": 0.907357818633318
+      },
+      "drift": {
+        "psnr": -3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d12",
+      "seed": 1,
+      "checkpoint_sha256": "00f2e60c60b92839d662adde5e7983bbf65eef2d1e0ccad23f25ea22a1bcf100",
+      "validation": {
+        "psnr": 22.230438335916695,
+        "ssim": 0.906664777547121
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d6",
+      "seed": 2,
+      "checkpoint_sha256": "2faee63e72f2917230c2370ca6be627948929dbea1e7f59dbfd628168eea8b76",
+      "validation": {
+        "psnr": 22.155777077859028,
+        "ssim": 0.9055836714804173
+      },
+      "drift": {
+        "psnr": 7.105427357601002e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "global_dimension",
+      "condition": "d12",
+      "seed": 2,
+      "checkpoint_sha256": "887836b914bf1cfb68b1968461d1a38d34c1e557a2cd96a8ea3858a58aa8f029",
+      "validation": {
+        "psnr": 22.128884692397005,
+        "ssim": 0.908525574952364
+      },
+      "drift": {
+        "psnr": 3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "unet_baselines",
+      "condition": "rgb",
+      "seed": 0,
+      "checkpoint_sha256": "7b01c3df5ee6bc30f02c3e0975b58cc0ff85018351bbb58c0cbbd7522b2e6da6",
+      "validation": {
+        "psnr": 20.928685236192116,
+        "ssim": 0.8907542690634728
+      },
+      "drift": {
+        "psnr": -7.105427357601002e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "unet_baselines",
+      "condition": "bounded",
+      "seed": 0,
+      "checkpoint_sha256": "12c26bd5c69e45810f54578b3a71241e3901b6c2c0fe68ce433ca596bdd29fc1",
+      "validation": {
+        "psnr": 22.50002316751243,
+        "ssim": 0.9134685583412647
+      },
+      "drift": {
+        "psnr": 3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "unet_baselines",
+      "condition": "unbounded",
+      "seed": 0,
+      "checkpoint_sha256": "3bfd51ecfb54b77f84e877b85efbefd2049a1778fd984435075192d0da43519e",
+      "validation": {
+        "psnr": 22.45254230555963,
+        "ssim": 0.911661246418953
+      },
+      "drift": {
+        "psnr": 3.552713678800501e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "unet_baselines",
+      "condition": "capacity",
+      "seed": 0,
+      "checkpoint_sha256": "d5d7a91b26c3c6a2b41071e541fbeb088180d593a9eda8125f1dfdca7cd78962",
+      "validation": {
+        "psnr": 21.107593248193087,
+        "ssim": 0.8920947309583426
+      },
+      "drift": {
+        "psnr": 7.105427357601002e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "condition": "rgb",
+      "seed": 0,
+      "checkpoint_sha256": "a20a76864ca199cb151aa8d3fcecbd5a1931909cabb3edf574fbcbb3da4fdea1",
+      "validation": {
+        "psnr": 24.11759004458633,
+        "ssim": 0.9166672974824905
+      },
+      "drift": {
+        "psnr": -7.105427357601002e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "condition": "bounded",
+      "seed": 0,
+      "checkpoint_sha256": "fb80d1a693cc2abb28a509ef366496914b6a899ccc53e30c9f8aef7c9636115c",
+      "validation": {
+        "psnr": 23.503399409185423,
+        "ssim": 0.9076625637710094
+      },
+      "drift": {
+        "psnr": -7.105427357601002e-15,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "condition": "unbounded",
+      "seed": 0,
+      "checkpoint_sha256": "278d2847508025e83e32dce90c6801c6017a4c5cc5ec15dfb4a13bfdc11b8a06",
+      "validation": {
+        "psnr": 23.70645596660635,
+        "ssim": 0.9126767918467522
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "condition": "capacity",
+      "seed": 0,
+      "checkpoint_sha256": "b12419c8ce657aaa155fb0b7feffd32561936aba286ea92a6f3feef0f0dc793c",
+      "validation": {
+        "psnr": 23.919232970933486,
+        "ssim": 0.9121020577847958
+      },
+      "drift": {
+        "psnr": 0.0,
+        "ssim": 0.0
+      }
+    }
+  ]
+}

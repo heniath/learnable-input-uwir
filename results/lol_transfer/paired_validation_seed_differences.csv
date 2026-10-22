@@ -1,0 +1,13 @@
+dataset,condition,baseline,seed,psnr_delta,ssim_delta
+lolv2_real,zero_maps,rgb,0,0.0,0.0
+lolv2_real,zero_maps,rgb,1,0.0,0.0
+lolv2_real,zero_maps,rgb,2,0.0,0.0
+lolv2_real,learned_maps,rgb,0,1.7009023433991466,0.020240154819212042
+lolv2_real,learned_maps,rgb,1,1.8245877092292133,0.013089497020279173
+lolv2_real,learned_maps,rgb,2,1.5836855910500347,0.014910675909208138
+lolv2_real,capacity,rgb,0,-0.018249208873580613,-0.00040098938389110383
+lolv2_real,capacity,rgb,1,0.05437009326326958,-0.0025845532831938467
+lolv2_real,capacity,rgb,2,-0.19144995465550352,-0.0028317544771278014
+lolv2_real,learned_maps,capacity,0,1.7191515522727272,0.020641144203103146
+lolv2_real,learned_maps,capacity,1,1.7702176159659437,0.01567405030347302
+lolv2_real,learned_maps,capacity,2,1.7751355457055382,0.01774243038633594

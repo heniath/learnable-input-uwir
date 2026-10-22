@@ -1,0 +1,104 @@
+{
+  "upstream_url": "https://github.com/heniath/underwater-image-enhancement",
+  "upstream_commit": "d9d28626cf32308fd6d57fd0c2f9ab39623cea60",
+  "files": [
+    {
+      "source": "latent-map-diagnostics/third_party/upstream/src/uwir/models/unet.py",
+      "destination": "src/liuwir/models/unet.py",
+      "sha256": "5948f03e3883c6152ff2438113e88eafcb1acd36daa07c31120f5a875086c314",
+      "change": "unchanged",
+      "destination_sha256": "5948f03e3883c6152ff2438113e88eafcb1acd36daa07c31120f5a875086c314"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/upstream/src/uwir/models/learnable_physics.py",
+      "destination": "src/liuwir/models/maps.py",
+      "source_sha256": "281920d5e99ff2c73c25c0ce806e94e67ca7cdaf38ff94a4e08083d4ee20e40e",
+      "change": "selected definitions; imports adapted, equations unchanged",
+      "destination_sha256": "7d698c30da7872b9ee900b7410cafc24c3273fc616e7f2a05b4f8ca07883b769"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/nafnet/nafnet.py",
+      "destination": "src/liuwir/models/nafnet.py",
+      "sha256": "b8e7b0810e0e614ecbe0a7ed1af3e65a6007a6ec5d290bccd1bc090118bec560",
+      "change": "unchanged",
+      "destination_sha256": "b8e7b0810e0e614ecbe0a7ed1af3e65a6007a6ec5d290bccd1bc090118bec560"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/nafnet/LICENSE",
+      "destination": "third_party/licenses/NAFNet.txt",
+      "sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad",
+      "change": "unchanged",
+      "destination_sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/nafnet/provenance.json",
+      "destination": "third_party/nafnet.json",
+      "sha256": "6401ed1420e2cd9545324134e567384f61ddbd1e7a606a21ea9287ccab1721dd",
+      "change": "unchanged",
+      "destination_sha256": "6401ed1420e2cd9545324134e567384f61ddbd1e7a606a21ea9287ccab1721dd"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/upstream/LICENSE",
+      "destination": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "change": "unchanged",
+      "destination_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/upstream/src/uwir/losses.py",
+      "destination": "src/liuwir/losses.py",
+      "source_sha256": "2ef5d7ce500379af833d34def9d1f6346402437706eb99b75a0c44d12e5b55d4",
+      "change": "selected definitions; imports adapted, equations unchanged",
+      "destination_sha256": "d8cefdc852f7821428aeeeb7a4973fa500e0b043eaaa3001bc850ce54ee95a0b"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/upstream/src/uwir/cli/train.py",
+      "destination": "src/liuwir/loops.py",
+      "source_sha256": "379f89ea579d2be08c495e679f688ae536c33fe6cc1529b0536df167de327814",
+      "change": "selected definitions; imports adapted, equations unchanged",
+      "destination_sha256": "3a4c9358df0cab553633273a1354c8d098fcd946f314eb82c575873017912f02"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/upstream/src/uwir/training/schedulers.py",
+      "destination": "src/liuwir/scheduler.py",
+      "source_sha256": "f881dca608280414a0035f00d2fd38a526ce31a12bb9ac9bd2ec516344a8ac53",
+      "change": "selected definitions; imports adapted, equations unchanged",
+      "destination_sha256": "cb0df83de866d522272942804a4073273383d9c30d6e5acd2b283ad29b62d5c0"
+    },
+    {
+      "source": "latent-map-diagnostics/third_party/upstream/src/uwir/training/seed.py",
+      "destination": "src/liuwir/rng.py",
+      "source_sha256": "11c375b059ec72e35946a2bc794bd80bcf295e03740ba337a11e97b2dfc1fb76",
+      "change": "selected definitions; imports adapted, equations unchanged",
+      "destination_sha256": "04c9f5bc4d87ab4b7065a983301ebc1a6367eefc1ed35f72d26990371786b180"
+    },
+    {
+      "source": "latent-map-diagnostics/outputs/map_diagnostics_v1/manifest.json",
+      "destination": "data/uieb.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333",
+      "change": "unchanged",
+      "destination_sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "source": "latent-map-diagnostics/src/diagnostics/models.py",
+      "destination": "src/liuwir/models/baselines.py",
+      "source_sha256": "e44cc4562e7b3a45d66bbb2e2693fe617feb8016f1d0bb52c460f388addcffa9",
+      "change": "imports adapted only",
+      "destination_sha256": "ebd53abbed5a27b1f09c5ec0e0b38ededda9237d5ca836c8fd68cb07a757b6d3"
+    },
+    {
+      "source": "latent-map-conditioning/src/conditioning/models.py",
+      "destination": "src/liuwir/models/conditioning.py",
+      "source_sha256": "9e86269d55c6c8bf4362df143d6dbac4de822658eedc3ad54f8ab09d9913cd01",
+      "change": "imports adapted only",
+      "destination_sha256": "d60d2743cdc44e080aecd6aab6d9a5ed1fe8129f40fdefb6b2f370489be61098"
+    },
+    {
+      "source": "latent-map-global-study/src/global_study/models.py",
+      "destination": "src/liuwir/models/global_latent.py",
+      "source_sha256": "ff01b501833cccd2e2c5dd307491d6d984c03fd37eac7991e0b7bd016818ed45",
+      "change": "imports adapted only",
+      "destination_sha256": "43281eb95a6ef2b973b5a58f13b66c89718a6ccd0ea5fe34637a234a04c67381"
+    }
+  ]
+}

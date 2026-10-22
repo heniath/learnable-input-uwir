@@ -1,0 +1,22 @@
+{
+  "upstream": {
+    "repository": "https://github.com/megvii-research/NAFNet",
+    "revision": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+    "files": {
+      "NAFNet_arch.py": {
+        "upstream_path": "basicsr/models/archs/NAFNet_arch.py",
+        "sha256": "01b22270cc93f1bb90c0e3e4490e98b023fcf73f8552860b4a9ee880ce5c6967"
+      },
+      "arch_util.py": {
+        "upstream_path": "basicsr/models/archs/arch_util.py",
+        "sha256": "5a11af2e7c2d7a7b57c1fbd7e19cf0a50b4b4e8c7ae7dd203a915d7a707e7005"
+      },
+      "LICENSE": {
+        "upstream_path": "LICENSE",
+        "sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+      }
+    }
+  },
+  "standalone_sha256": "b8e7b0810e0e614ecbe0a7ed1af3e65a6007a6ec5d290bccd1bc090118bec560",
+  "standalone_origin": "Preserved extraction from latent-map-enhancement; removes dependency-heavy imports/local-inference code and modernizes saved_variables to saved_tensors. Core equations unchanged."
+}

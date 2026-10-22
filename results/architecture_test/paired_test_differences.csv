@@ -1,0 +1,9 @@
+seed,label,selection,delta_test_psnr_vs_control,delta_test_ssim_vs_control,test_psnr_wins_vs_control
+0,control,best,0.0,0.0,0
+0,control,last,0.0,0.0,0
+0,multiscale,best,0.0,0.0,0
+0,multiscale,last,0.003805409381463794,1.0767910215589736e-05,48
+0,residual_refine,best,0.0,0.0,0
+0,residual_refine,last,0.007661571465918509,-0.0006297088331646389,52
+0,skip_gate,best,0.0,0.0,0
+0,skip_gate,last,0.004853171630762078,1.649161179860433e-05,59

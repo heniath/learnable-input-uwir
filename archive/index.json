@@ -1,0 +1,2510 @@
+{
+  "format": "tar.gz",
+  "archive_sha256": "ff6ed5724d36fdb6b9ae3555d49c1a4f7cf466af55200fb0d03a9cb7c629dc51",
+  "files": [
+    {
+      "path": "latent-map-component-ablation/README.md",
+      "sha256": "de152dd6de28879bc07f26b16a416cb36ca12a2cd6963c428827c832c973d39a"
+    },
+    {
+      "path": "latent-map-component-ablation/RESEARCH.md",
+      "sha256": "ce4a13ea2965bb342e8f0a6b71a658086d7b05a2808194c46132ef39436863f7"
+    },
+    {
+      "path": "latent-map-component-ablation/TEST_RESEARCH.md",
+      "sha256": "c33f3380729166a48f061eff752506b9cf52037e7b78d7fe94dbbcd73bc63a69"
+    },
+    {
+      "path": "latent-map-component-ablation/outputs/map_components_uieb_test_v1/complete.json",
+      "sha256": "d8c8116641209fa27597cfd94355cf496883d0bb938c49be5c212e1d758f1e8a"
+    },
+    {
+      "path": "latent-map-component-ablation/outputs/map_components_uieb_test_v1/protocol.json",
+      "sha256": "1792bf86bc1057980111af7c5de8092dd37865d2505cf2cf7dbcd71b681b0ef7"
+    },
+    {
+      "path": "latent-map-component-ablation/outputs/map_components_v1/complete.json",
+      "sha256": "9a62d2d3218572959e084f874ed68660961ef717866e8177966e60e1bcb398f8"
+    },
+    {
+      "path": "latent-map-component-ablation/outputs/map_components_v1/protocol.json",
+      "sha256": "cf69e8e1ad5cd0e5ee51881f7dae87f978772f17466085ede0da117f581bd2ac"
+    },
+    {
+      "path": "latent-map-component-ablation/scripts/ablate.py",
+      "sha256": "3de4d0eab2d85c43dd2276b9b75956d923f1ca46edfe8d4a2709403e8db5b43f"
+    },
+    {
+      "path": "latent-map-conditioning/README.md",
+      "sha256": "ac1c937b8dad56762401b9cc095ac211df90e4143b3de3fea34bf57716f5b4f6"
+    },
+    {
+      "path": "latent-map-conditioning/configs/functional_check.json",
+      "sha256": "76e61d91b7a94dac04b641e6c4b2d0571b59b223172a88bec3349bef90b72dd2"
+    },
+    {
+      "path": "latent-map-conditioning/configs/functional_check_v2.json",
+      "sha256": "0889a7e03adfc11d900d7219b9bc5160177128f9120a91cba64c7dc4bfbe5cb1"
+    },
+    {
+      "path": "latent-map-conditioning/configs/h1_full.json",
+      "sha256": "d1ff96f4bc3f88a20107845c060bdace039ba6efa313b987089b976ebef431ef"
+    },
+    {
+      "path": "latent-map-conditioning/configs/h1_full_v2.json",
+      "sha256": "4eea0d5569f2d911a55e340cb9e009a38e5b611d706f0c6dc86c6e98fed20881"
+    },
+    {
+      "path": "latent-map-conditioning/configs/h1_pilot.json",
+      "sha256": "e120a5a66e25498ac6783a13c421f772e053d4bb5ead7dead20d4ed3c3198222"
+    },
+    {
+      "path": "latent-map-conditioning/configs/h1_pilot_seeds12_v2.json",
+      "sha256": "40661c0d5975f8acb70addb330f952ed51e919fdb0d3628a25a96ed743547d5d"
+    },
+    {
+      "path": "latent-map-conditioning/configs/h1_pilot_v2.json",
+      "sha256": "28da8b89b9e5634b4ffbfc21d24596bd903e04ae38db50c8b9a3d27bd3bf814c"
+    },
+    {
+      "path": "latent-map-conditioning/configs/h2_pilot.json",
+      "sha256": "61a20ef1d085f496ee7ff5c7fc01724fdf90f5b5590ef48255b4e0766ac6bced"
+    },
+    {
+      "path": "latent-map-conditioning/configs/h2_pilot_v2.json",
+      "sha256": "5ac3dbeb0feca36fd6d4430a03b2dcf48a2f6c2e958e2965ead5a2cd624c319b"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v1/config.json",
+      "sha256": "d3cbacb927d5481967abd4bf22d107b5d42ffd71ec67ca118feb6b2ab7883c9a"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v1/frozen.json",
+      "sha256": "c7e6c083eb1cfd8b9f1c290fe63138718a5208d547f270d78861ef9aa1cd88bd"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v1/runs/seed_0/A3_both/complete.json",
+      "sha256": "2bd997df79811f0a48227d11c20a0eae9f44c2f2947a8141ada86f186aa6698c"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v1/runs/seed_0/A3_both/run.json",
+      "sha256": "76e5f82aa62ba8e3277b33d20033cf1338ac8cfc4c7095d774b2ff0c2a697518"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v2/config.json",
+      "sha256": "28c6678a3d1a3b54a42c282fc45cc1111dc65f22df83084fd5213857a34cea18"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v2/frozen.json",
+      "sha256": "6330d7cf2b0457695ff37fd5166612cf8caced6c4a543fc9f97304faa06fd9f9"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v2/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v2/runs/seed_0/A3_both/complete.json",
+      "sha256": "15bbb5d6bb3ed2c7b54023db44cb38da988a7729477a34ccb818a21e5c4c7be7"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_functional_check_v2/runs/seed_0/A3_both/run.json",
+      "sha256": "1274bb106b0246563fe4d71556388cc8ee6809a610cd25268c2d47b04334feec"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/config.json",
+      "sha256": "a9a0123a92dcb88c7aca00b12ffacd99c3b01765b2824c080d058afc3e64a5e7"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/frozen.json",
+      "sha256": "1601156fc4de70be74ee24d4ca7bade0ba0fc6a6a79029fc716cd4092b96811c"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_1/A0_rgb/complete.json",
+      "sha256": "acaa14186d88fde352b0f0dcaa076d61669905b4d94b628bc963b13b596a9bdf"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_1/A0_rgb/run.json",
+      "sha256": "68d1223af1b71cc87b35e64f9e22f6238f480076375d8a6644853475fd93cccc"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_1/A1_spatial/complete.json",
+      "sha256": "38c8f02bacc0f4bc164bb593e105404e171262600533d8afccf4e9689f5584e6"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_1/A1_spatial/run.json",
+      "sha256": "4a8003849efa40350476a8874039772bde97b4cc3708fa0413d9945688d5803a"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_1/A2_global/complete.json",
+      "sha256": "69980017a0c9eaba4caddd5884c018bdbabca88a8fbfc5d6072bba97e4e4afd7"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_1/A2_global/run.json",
+      "sha256": "e30fc0d379e7738fe3288b3ba215f7674f2e5bf2e86e7690f8b5544fb6cf600a"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_1/A3_both/complete.json",
+      "sha256": "1e875cc8d9cd415d64b5366db5933e3a48f0de7e223851d9c6ed67120c470dde"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_1/A3_both/run.json",
+      "sha256": "4095fa929a59d5cf74811b6c6ee39b5149942dbe3dfd0c9192afca9e9a5c7543"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_2/A0_rgb/complete.json",
+      "sha256": "75763f2a68c22d238f66cd0ce970178e19ea17cd4612ad172bc1e147f74ad64a"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_2/A0_rgb/run.json",
+      "sha256": "1a2cfa61684d10b69bfe2089391374e8cdbe7b447c28604094e803a2312c61f3"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_2/A1_spatial/complete.json",
+      "sha256": "3d6794c9835ed6efbbdef2e20963b3518849aa303a495675b9df40c7d9f1b1b5"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_2/A1_spatial/run.json",
+      "sha256": "db37e468614efc951be6417095696c846af1775afd46324b52c412076ac6b14a"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_2/A2_global/complete.json",
+      "sha256": "05100a8ebe91b15b6bfa1f32ee0a2a43cd9a76cd9ee342b71ce411bc15b41b95"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_2/A2_global/run.json",
+      "sha256": "21438de50f9d948cd3e525c8eb05b58b55d9805455733b0cc78c99504660ab22"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_2/A3_both/complete.json",
+      "sha256": "68612c63355fa3c53ca2df958caccba928f139aec08dd1096e555e37f19bc9d1"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_seeds12_v2/runs/seed_2/A3_both/run.json",
+      "sha256": "1417c154179a2d9b451f7f56214e305d655824bd576e07458b7e897e8e4968d5"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v1/config.json",
+      "sha256": "f8b4101374b4408d2dbae76235dfb6a178c6792b1f8abb5bedfd8dd64e5070b8"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v1/frozen.json",
+      "sha256": "9acb385705dbc26c4b65601d43f522f673343b7bd09560dcd0a2b3c7bbecb3fa"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/config.json",
+      "sha256": "478f95fb97413445844da0f9d3489a6ed8568843762a6b6b14e5888848529ded"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/frozen.json",
+      "sha256": "aedc758748e23e2667f46e2fa02fabb962c043afe43e36ebc136c13c5b7456f0"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/runs/seed_0/A0_rgb/complete.json",
+      "sha256": "2164b53aae5d87861518190604e8c2e3846d005b7eb9d1b2628de7a28e35acd5"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/runs/seed_0/A0_rgb/run.json",
+      "sha256": "bfaa99694a5b15f30600b9c339f1a4527f84969644595f271dd69964f8d35da7"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/runs/seed_0/A1_spatial/complete.json",
+      "sha256": "11a2231c3eb96988c5b48a08b97b304977889d0ecb9548d6092026216641a72f"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/runs/seed_0/A1_spatial/run.json",
+      "sha256": "6bbac0b791732bb93f7539106a6e2cd391e9d338d8b95f5dab06d3022d263c20"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/runs/seed_0/A2_global/complete.json",
+      "sha256": "09eb5bf0ce466a984f35a9194a6975707c47ffd836a044dfbbcaee14a3db1def"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/runs/seed_0/A2_global/run.json",
+      "sha256": "3610a45b353a4d8e4e16ecc2bb677a583836a6f66c1a2ad93391179b56dcbdc0"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/runs/seed_0/A3_both/complete.json",
+      "sha256": "fd534d5e5bd705cfef81edd30d9aab17279f15439eb776ecaa0b67716e979e5f"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h1_pilot_v2/runs/seed_0/A3_both/run.json",
+      "sha256": "19a761761a7ec5df7c4e94ca58acbd5a0bbc15bed9dd832e955d70b4a46242e5"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v1/config.json",
+      "sha256": "eefab3a4803b00c91aba66cbedc82063eaf095eb75c82ba5dfd9013c9b585e2a"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v1/frozen.json",
+      "sha256": "11b75245993c5f0245a2917300df081b1eb752df65f414f2adf4033dec37e812"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/config.json",
+      "sha256": "36b55acb37a2f1860a6e5dc2d39517498ff012bf1730e0b2330f8e68e899b4fd"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/frozen.json",
+      "sha256": "f5be53ac17eb4aa451629c248fda902f30d0b878fbed66add220f940e526b788"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/runs/seed_0/B0_input/complete.json",
+      "sha256": "607edb535caa634f983e799e232e104be8caab8d0dc5b2a9e2404bb07d8a801c"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/runs/seed_0/B0_input/run.json",
+      "sha256": "5c17c932a171d74001b3f1bbc2553f1f10ff935e5bddb0d1e0d65c0d21fe0860"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/runs/seed_0/B1_spatial_skip/complete.json",
+      "sha256": "53bd355b948a5de51b6bbf638dea4dd200f09d4d8f0854c525c32e31f3b15206"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/runs/seed_0/B1_spatial_skip/run.json",
+      "sha256": "c1cdf5ee16d35174b914754a25d2cef43020c1c5233a13171cd344bc7b066e7d"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/runs/seed_0/B2_global_bottleneck/complete.json",
+      "sha256": "bf5930eeb6db67b0104609b3244ecd7f9305365563f155392d551ba6a2290666"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/runs/seed_0/B2_global_bottleneck/run.json",
+      "sha256": "72820159e707736c823bcced870282a12e386a0cb824b056407c15174c4dc7ca"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/runs/seed_0/B3_combined/complete.json",
+      "sha256": "186d778528e5f5ed0ca4cb099bdf822aba6bee772591f5930c1575b114f2ab46"
+    },
+    {
+      "path": "latent-map-conditioning/outputs/conditioning_h2_pilot_v2/runs/seed_0/B3_combined/run.json",
+      "sha256": "32d388d498014ae68ef7d1d0410eea69f90307cf1ac806582b958f5987584af2"
+    },
+    {
+      "path": "latent-map-conditioning/scripts/run.py",
+      "sha256": "27442b5c0bda5e5be7dc91e95cb2fc591f3c5944f32f541c5087d62f879d00f4"
+    },
+    {
+      "path": "latent-map-conditioning/src/conditioning/__init__.py",
+      "sha256": "ad4b2c4a22d043aed43641b4f210299e78e7384982ce9870c642f48b370aaa39"
+    },
+    {
+      "path": "latent-map-conditioning/src/conditioning/experiment.py",
+      "sha256": "9eacff37a04ba6603a6c9cd2e891ed04cb8a361c9e327ad5e2a4caa4efead0fe"
+    },
+    {
+      "path": "latent-map-conditioning/src/conditioning/models.py",
+      "sha256": "9e86269d55c6c8bf4362df143d6dbac4de822658eedc3ad54f8ab09d9913cd01"
+    },
+    {
+      "path": "latent-map-conditioning/src/conditioning/protocol.py",
+      "sha256": "e823173b766a41accea884cc5640a2547432c557dab67401b47e823d8bf2a0e9"
+    },
+    {
+      "path": "latent-map-conditioning/src/conditioning/report.py",
+      "sha256": "b240c145deb2b1c287724e165904db9f190354330dba683172479acd79f63d5c"
+    },
+    {
+      "path": "latent-map-conditioning/tests/bootstrap.py",
+      "sha256": "c6dfd99b2fbc40e08cf069b6613d3bf1117a8693c70d30aaa7fbea32419eaf94"
+    },
+    {
+      "path": "latent-map-conditioning/tests/test_models.py",
+      "sha256": "68fec9660ab15af4d99b3cc21a6d0cf2f1e8304a95fbbe4f15c981321e5817e5"
+    },
+    {
+      "path": "latent-map-conditioning/tests/test_protocol_reporting.py",
+      "sha256": "610c253d2d07b54e78ca6803adb05f05fd8e7523fe6aa74418d74c62dedc46be"
+    },
+    {
+      "path": "latent-map-conditioning/validation/RESULTS.md",
+      "sha256": "13df21323d6842c61f4bc356a0ff7e660b88860ea26e670a98ce9fefe33f3aa9"
+    },
+    {
+      "path": "latent-map-conditioning/validation/implementation_checks.json",
+      "sha256": "e77f107002113d6a96178cc49acaff332b9aa067e3f0978a49dc7f2aa3993dcb"
+    },
+    {
+      "path": "latent-map-conditioning/validation/v2/implementation_checks.json",
+      "sha256": "2ef6dc613a484dfef2dc0cda03cfd07b2238dfd0a0980313fb58ca8439812371"
+    },
+    {
+      "path": "latent-map-conditioning/validation/validate_implementation_v1.py",
+      "sha256": "bde562ef8245fe145d10bfe34fb79a6809b82d12215a0fc591a357cf32c8bc17"
+    },
+    {
+      "path": "latent-map-conditioning/validation/validate_implementation_v2.py",
+      "sha256": "a6d266c17dfae75a15e19b386ee5e35cd2b8faa400eda89cbd1bcf46e5b7439a"
+    },
+    {
+      "path": "latent-map-conditioning-test/ANALYSIS.md",
+      "sha256": "df821795f31b7cb865a0c97520da9732b718c12686f57253bab3b68a934ba40d"
+    },
+    {
+      "path": "latent-map-conditioning-test/README.md",
+      "sha256": "7ad2b3fb2d286685a2574545a47d18fddda58d15474fcf4b5331fa58b3572707"
+    },
+    {
+      "path": "latent-map-conditioning-test/outputs/conditioning_pilots_test90_v1/complete.json",
+      "sha256": "9375641e1f129173b0c77937f1f2af57b0e77bcdd61a5c4c309e4412452b7360"
+    },
+    {
+      "path": "latent-map-conditioning-test/outputs/conditioning_pilots_test90_v1/protocol.json",
+      "sha256": "02c653e89ab2a46c7d7f8c43c17f6cdb1111f23475bc6f534edb5f0669ce4df4"
+    },
+    {
+      "path": "latent-map-conditioning-test/scripts/evaluate.py",
+      "sha256": "49fc3ab5884176a936252404b6f86b34d6e2377ef3a658bc78c6aecdefafa487"
+    },
+    {
+      "path": "latent-map-diagnostics/HANDOFF.md",
+      "sha256": "2669dae29c570e4f6a532022dac508704704ff07b64a988a99a265ee684bda93"
+    },
+    {
+      "path": "latent-map-diagnostics/README.md",
+      "sha256": "9e9b3ca451130539b69bd93abd2bc098da5a64587f58456e08117233082c7487"
+    },
+    {
+      "path": "latent-map-diagnostics/configs/protocol.json",
+      "sha256": "bc0b1ca5367a5070dfe12fdd5d0ab10360bd478dc9e276026b54113f9cc0ca83"
+    },
+    {
+      "path": "latent-map-diagnostics/constraints.txt",
+      "sha256": "e0ce81d815e2802fe753343807abd86db33d8349a6023c53a46c816cad6af247"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/frozen_protocol.json",
+      "sha256": "9eefc71fa7fab06e84a766de24b0791a9df53a9f10968d04f644c1aad7acf02f"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/nafnet/bounded/seed_0/run.json",
+      "sha256": "756bbafa4902e6c2814aee57512937b20fb76dce61ac63d00545fd98510f10aa"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/nafnet/bounded/seed_0/run_complete.json",
+      "sha256": "f975349a8a1b9a7a506f4da7caa14c9def0cec86f8a8952f913d537a9e8ef929"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/nafnet/capacity/seed_0/run.json",
+      "sha256": "86face372f4913a3f3238b41a7e473a0b3745e9f8ffaeec84b9506ffb66eb438"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/nafnet/capacity/seed_0/run_complete.json",
+      "sha256": "ea67196966b4fc31e6169024be4e9670614714004cca0dda00908fdc47745664"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/nafnet/rgb/seed_0/run.json",
+      "sha256": "025a9600de7f6258afa1720cea72c3b3a5384d2d9a8fb90313d41c5d6a302b65"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/nafnet/rgb/seed_0/run_complete.json",
+      "sha256": "09e07ff9875328b7c369f1f827b9aefa67c3efc6304bac2f0e6db23f538e5172"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/nafnet/unbounded/seed_0/run.json",
+      "sha256": "ad710683a2d5c252017b861aaa2647004db1fa5dc8972f9d3d2f52ed051761dd"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/nafnet/unbounded/seed_0/run_complete.json",
+      "sha256": "e74675c1adae7c023bb0dba1807b3f9ba556bd679a8553ff5ab3e7694cba8541"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/unet/bounded/seed_0/run.json",
+      "sha256": "6fd42a351c55ca27d71a4efab76f4d7fbdeeaacbe8569c6a1e42d9e8c35eee0c"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/unet/bounded/seed_0/run_complete.json",
+      "sha256": "5321ae0563e5740f4b6e7c7fe613d019999a99b5a76ae965fc27ad03dacfb69e"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/unet/capacity/seed_0/run.json",
+      "sha256": "e6fe53cfeed134e406390b7d4a37affb001b2e097a5549fcaf33dda2f9f85389"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/unet/capacity/seed_0/run_complete.json",
+      "sha256": "01e422670e25a7f6e9b37d3a7c80ac32cab5d834360dd03cff29924a39f99b50"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/unet/rgb/seed_0/run.json",
+      "sha256": "99c52fc21f3a2a31f6bcc226c1b63f9e2f581c54b6a77bce7ab678269027d214"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/unet/rgb/seed_0/run_complete.json",
+      "sha256": "ca839e2f3b54ce7556efbdf083dd5f107b068797aff952f32654dd105afb37a5"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/unet/unbounded/seed_0/run.json",
+      "sha256": "eb113b72f6a52fbaaf7a0af4a64072868e38d04d8038ccda0e6e90b70e187143"
+    },
+    {
+      "path": "latent-map-diagnostics/outputs/map_diagnostics_v1/unet/unbounded/seed_0/run_complete.json",
+      "sha256": "2b414802076ff3648190cc6098d7bd673ecfca92a656257d9768002bf86569cf"
+    },
+    {
+      "path": "latent-map-diagnostics/research/NOVELTY.md",
+      "sha256": "895eab48202c2949bfe56dcad8db4b890bf937ddb1937fd0e2cc60a3406726ad"
+    },
+    {
+      "path": "latent-map-diagnostics/research/papers/CPLDP.txt",
+      "sha256": "2a558afc545020e00023a8c336f6729eecab5fbbdbcd922590bf8e24220739aa"
+    },
+    {
+      "path": "latent-map-diagnostics/scripts/experiment.py",
+      "sha256": "6c99203afa8798525c1c70f99c7a4c87b6d59bf5f0765923ff78674eace39501"
+    },
+    {
+      "path": "latent-map-diagnostics/scripts/run_logged.py",
+      "sha256": "06db76e0e57b9767c1072ee1d22a08a540d77dd0c62bd08d93b8107124afefd6"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/audit.py",
+      "sha256": "a3d9492b648cdb47a22b596e16461241abaaf894f83f11888f7771ab12d24e33"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/cli.py",
+      "sha256": "fe48911dbf79d56757215e36d77570f66f27fd999a643066c87071a2826a3480"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/diagnose.py",
+      "sha256": "aa8aa4a167af27192c63a7f1ebe93ed5121a15c2431fbc58b3439996528ec369"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/engine.py",
+      "sha256": "9a23c4243c4f50e3f9f18e7018e19696add503aae8197e0aa58d127c3cc82cd8"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/models.py",
+      "sha256": "e44cc4562e7b3a45d66bbb2e2693fe617feb8016f1d0bb52c460f388addcffa9"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/protocol.py",
+      "sha256": "155664f25ced79ad24d702c9e82c5ce5848c323aac1a42759c69ae33ba720b77"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/report.py",
+      "sha256": "f140837909b784d5c2287b3240996261489e14c010f61529b84642288079a666"
+    },
+    {
+      "path": "latent-map-diagnostics/src/diagnostics/validation.py",
+      "sha256": "5472ca5a0d8097a491366a26470a6cd6f7048aa360989f50cef29aae31ea1a36"
+    },
+    {
+      "path": "latent-map-diagnostics/tests/test_diagnostics.py",
+      "sha256": "eb2482479f7690aeb493b52835f00ca11729df8771b6d556d521851c6e33afdd"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/nafnet/LICENSE",
+      "sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/nafnet/NAFNet_arch.py",
+      "sha256": "01b22270cc93f1bb90c0e3e4490e98b023fcf73f8552860b4a9ee880ce5c6967"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/nafnet/SOURCE.json",
+      "sha256": "c5897c0264c78cf96d7964bb07b7336a9a3132cfb85ba4439d92bb9a7e623971"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/nafnet/arch_util.py",
+      "sha256": "5a11af2e7c2d7a7b57c1fbd7e19cf0a50b4b4e8c7ae7dd203a915d7a707e7005"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/nafnet/nafnet.py",
+      "sha256": "b8e7b0810e0e614ecbe0a7ed1af3e65a6007a6ec5d290bccd1bc090118bec560"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/nafnet/provenance.json",
+      "sha256": "6401ed1420e2cd9545324134e567384f61ddbd1e7a606a21ea9287ccab1721dd"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/README.md",
+      "sha256": "6228bf616774e8ed888cea79388db781ba438215e34312d4c794329b3e860a6a"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/docs/reference_methods_benchmark.md",
+      "sha256": "1675b2f6595045369215c15fc83fb3f219dd173c8b80a428167c7eaf9be9970e"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/docs/reported_results.md",
+      "sha256": "63e800aa7ed9f5c1627bb87d8e6e85b85e9f4d9ac6c99b17593ca570e4559355"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/docs/uwlyt_literature_review.md",
+      "sha256": "5aa2034e5f26e810937d5e07912d70778d1d680bd1375766b382516c63a6febf"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/outputs/reference_methods/environment.json",
+      "sha256": "70dcdb4ec2656d660d824ececa98595b34767da8e773bc7af90f0f53ec99c453"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/pyproject.toml",
+      "sha256": "4c33e3e99461f50116ccc5f663c9e99818a0185fc3b0d1f13e9e016737fb7f6d"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/requirements.txt",
+      "sha256": "28f800fbbba3ec1800fdb90c9f0c10ae9ce14445ed9a8a23916c095a343ce23d"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/__init__.py",
+      "sha256": "decd3fe583dbc096867e04a079d786c3310f29278f68d9541577bf9c7f8859fb"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/diagnostics/__init__.py",
+      "sha256": "5854b9f19dbb9d9b307f966619ca713c49e37594c5b8d1c501ae8fbdc2b6ee8b"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/diagnostics/check_physics_maps.py",
+      "sha256": "01d70c13a5e9792232af2924d96285062247ab42a5b12443fc27c84ea22fa6fa"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/experiments/__init__.py",
+      "sha256": "0e584f58c9585242887f1e91c5b5eeaba63f65a1cd5f9ea5a861be881392f1ec"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/experiments/ablation_euvp.py",
+      "sha256": "1798e09865ed3bdcb5d3dc1ee8cd3080ce0edc7e827a45e5e3ec44f58fa911d6"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/experiments/ablation_uieb.py",
+      "sha256": "087366d5f6b3c2a05c7e4c9d91f70e9a2e439f306379301aae627de5e247bc41"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/reference_methods_benchmark.py",
+      "sha256": "f7c1002377a0c873d335db3c7f1b4c9262d9739aa33ea9c9f5d70517d5d1796a"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/visualization/__init__.py",
+      "sha256": "fb3340c20e46a5eb6cfc6d782078d43363844abe1531e75e2dfc674982d8237f"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/visualization/ablation.py",
+      "sha256": "0d91f027e99868026638fd8c8f01cc348aa10f6a2ef2d08506abe0f83dbe5f12"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/visualization/plot_remaining.py",
+      "sha256": "4ab9e18008d4cd686a32928db4bc46264251071853f23eb4673772f2fca83fcd"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/scripts/visualization/replot_qualitative.py",
+      "sha256": "e9f784e6ce102961d0659489351c1df97f73d4dc437f3d57688be03f4fefaf6b"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/__init__.py",
+      "sha256": "c8f123672c1a8e76f6d118e042ddb341c4bb5ae5ecd7b1fb5f884f4b2688cc16"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/cli/__init__.py",
+      "sha256": "397aecd46a90f24ddf2d6bd2910ba31e98436ee7139155edefaa7bdb66409c5d"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/cli/evaluate.py",
+      "sha256": "5c86956e35639100d7395d7dcc97bf8fff71881ffa3e287c345651d2317d3be4"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/cli/profile.py",
+      "sha256": "a8c7077461dffc42a96fe404a3c871efc5d099d6b69d0f4272b8bca261de066a"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/cli/train.py",
+      "sha256": "379f89ea579d2be08c495e679f688ae536c33fe6cc1529b0536df167de327814"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/config.py",
+      "sha256": "09a8a3fa3ba1e4d2faabb46928dd2a582a858a95809566e0561afa5c6f1916b1"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/data/__init__.py",
+      "sha256": "124d2c54f05b83959de1bc77e3bfd7ad8c4ad85b004f50846cada3e5c0425a7a"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/data/datasets.py",
+      "sha256": "304bc7c2f2ed3a8e91864f7b2487630e8adc073b58ae09175c055b90cc1c4888"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/data/factory.py",
+      "sha256": "1f54967f9350d11080ed777d915f55b85b606995656e3734d13812a127aeeff1"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/data/utils.py",
+      "sha256": "acdc0c735479e2e7f9a0e4607c669f6484d284e4f6ab2d647b01fa900e2e7569"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/datasets/__init__.py",
+      "sha256": "5b0e0606286cc8e1cb548ebd219eeaf18499e3dea4ad545a951da02f329367e8"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/datasets/common.py",
+      "sha256": "351dae5241834ba926136316e2609eea865d979f9a850d0bffe74c3f4fe28227"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/datasets/lsui.py",
+      "sha256": "87750f25f31d5a6c225da755ceb9e8a595731875902143147fadef714f68ca7b"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/datasets/uieb.py",
+      "sha256": "97fe275d76f45425de96705f2a5d1eede0e5ec3303dc3cd4f6c33a216e340a88"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/evaluation/__init__.py",
+      "sha256": "645b39464f8c6cc56bcee570700140a0f6c62522c4929eab6a65ad86815579dd"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/evaluation/inference_benchmark.py",
+      "sha256": "76d947c631850bf9d5e70cadf79376e87fabc8bd694b8ccd1686497eed6c3c5a"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/evaluation/quality_metrics.py",
+      "sha256": "b5c24b2b1d91aa5b2e1783236b61b241e4987389f1f539905021b6bf310335ef"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/losses.py",
+      "sha256": "2ef5d7ce500379af833d34def9d1f6346402437706eb99b75a0c44d12e5b55d4"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/metrics.py",
+      "sha256": "0a1436e301d30dacd6d3332348f616418447cea25ab7c4a8259977f2a2809605"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/models/__init__.py",
+      "sha256": "1c88abd8d9511f22cfe0454ee4b3abd7464b8741678e7d004d11b99d79800a17"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/models/learnable_physics.py",
+      "sha256": "281920d5e99ff2c73c25c0ce806e94e67ca7cdaf38ff94a4e08083d4ee20e40e"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/models/mobilenet_unet.py",
+      "sha256": "e5eccc50f92312f9182c112303c7ef5e665f0b2e6b1abf5576d50e9a985a0c47"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/models/registry.py",
+      "sha256": "e0602cf434206f3deb12a9d113e3af162505afcb733742c6b84ed53ed30c43fd"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/models/unet.py",
+      "sha256": "5948f03e3883c6152ff2438113e88eafcb1acd36daa07c31120f5a875086c314"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/models/uwlyt.py",
+      "sha256": "d181f3da8eeb4217c1369c4ac3408b8912f44a0ee26d948d12ced2c779f33e80"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/physics/__init__.py",
+      "sha256": "9d46f4c1f592b33af1bc7605d8c736c6271cf675ff44e9466bd2e54598d2a624"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/physics/udcp.py",
+      "sha256": "5db0c0b20627241d3ddb9517a088bdd80cc5ce30e4599cae8b1e2616df4f2696"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/reference_methods/__init__.py",
+      "sha256": "cbfa0ed972691b6fc4612eb9c4d40d27e4ba30850ae7f2d3b659978a55591973"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/reference_methods/base.py",
+      "sha256": "4cfa1f420cd392aecd41f3fdb221d4e179537fc86eb2286d0f50570fb6149188"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/reference_methods/funie_gan.py",
+      "sha256": "2e2192b15614edaca1ccc413be36fb1badbb9ad9b5e19e7ea1814974052933b6"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/reference_methods/lpd_net.py",
+      "sha256": "cae87f934db01f582f51363cd039b0f5787e0832bc4dd02bf7efb7e140efcd7d"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/reference_methods/ucolor.py",
+      "sha256": "3b783f10beccfaba586e404683acfa85f1647b52b63071c502d06444140a7531"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/reference_methods/unet.py",
+      "sha256": "58d6044fce775d158cf733590ca10ea20f380e058c264194a12f2bca17f90a5a"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/reference_methods/uwformer.py",
+      "sha256": "bcb8178f1372c1a324918ae4dabe0f9cab2e39d215b85bac805b5e2005895f41"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/reference_methods/waternet.py",
+      "sha256": "a1f1602a9d5dbaaa4b73494866371d1ff419fed628500dbfdc4b940cd57483b1"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/training/__init__.py",
+      "sha256": "896fd09521cace1c62642717a2c173ea6ce64f57d13179f01a3b146b18923113"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/training/checkpoint.py",
+      "sha256": "a270cb2baf44bcf2e4141d6d4aaaaeb466a0bf010d673a7d68a207377a409648"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/training/runner.py",
+      "sha256": "e8751d57358d5d476301320c4586dd88d65292824a138799b79eec66d97630ea"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/training/schedulers.py",
+      "sha256": "f881dca608280414a0035f00d2fd38a526ce31a12bb9ac9bd2ec516344a8ac53"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/src/uwir/training/seed.py",
+      "sha256": "11c375b059ec72e35946a2bc794bd80bcf295e03740ba337a11e97b2dfc1fb76"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/conftest.py",
+      "sha256": "9cded6d6ef4ff9b68745ebc494b5b6d3cb81ceb2539d5dd6b66bce1e629c49a7"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_config_and_registry.py",
+      "sha256": "0db35c3224a84412ff281a0b717b9a996ae2cb7bbba6d37af489b1c59996ba87"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_learnable_physics.py",
+      "sha256": "ad66ec57ef53eda8c5ab503b7e94a415b92c1fc747c435c11209181fe3949f2a"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_metrics_and_physics.py",
+      "sha256": "567148427cae3dd006d1b37314ca599ef61c48154770a60a0a3f0b3b162a60f1"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_mobilenet_physics.py",
+      "sha256": "46f4cf0163052d5eff73ba4f82a622a263dbdd219b165968d43da4aa2dcb0e98"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_reference_benchmark.py",
+      "sha256": "8b22c1e5d49ec14871f22256257ca89b187971d9548db88372a3f3cb17503516"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_training_smoke.py",
+      "sha256": "7a87bf5e8bcc159e4c8a9a5d060e97b34b539cc5560470ed70b164648a2b9bf1"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_uwlyt.py",
+      "sha256": "1fc44fb44ab80b2544f3205d1101173bdbb97306bbf55196c75eacc64eaed9e4"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_uwlyt_protocol.py",
+      "sha256": "58b79c4f449bc871ff4ba8ca99b0b72ad4a139125102b7edf8c495f42bffc1ee"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_uwlytms.py",
+      "sha256": "98df1d187ca867ff875c0f5ad3d55307459b81d5bb4b9afd4841538c3d72effc"
+    },
+    {
+      "path": "latent-map-diagnostics/third_party/upstream/tests/test_uwlytv2.py",
+      "sha256": "8eb85bdb8b0616c39a0ffb00644147100aadfa0fefbf9232406c402683a723b0"
+    },
+    {
+      "path": "latent-map-enhancement/README.md",
+      "sha256": "52ffffb5be36059e34d2b34bf227991d2396236f9c39812393a03e0d56be9904"
+    },
+    {
+      "path": "latent-map-enhancement/VALIDATION.json",
+      "sha256": "394d07c721ac801ad90c01a2694c733d49fcc9c57acf80e3e31db5eb36a6224e"
+    },
+    {
+      "path": "latent-map-enhancement/configs/protocol.yaml",
+      "sha256": "54665e5f5479cb386b9c3687823b23b293ce92e2cf594221fb8b427f13ef0b6d"
+    },
+    {
+      "path": "latent-map-enhancement/copy_provenance.json",
+      "sha256": "d7dc91cd01eb544a70f0d2b228bb5b648a43fdb983e513f2162c27f3e27a3598"
+    },
+    {
+      "path": "latent-map-enhancement/manifests/cross_dataset_audit.json",
+      "sha256": "70233379e2ce35d7a00900f8959fe298ac061b0d291c6581024b6540abdd6b80"
+    },
+    {
+      "path": "latent-map-enhancement/manifests/lolv2_real.json",
+      "sha256": "6c0beb234ba14f26e7417fac362d7e26a7a2240741ea947d5089d53dbbf67afe"
+    },
+    {
+      "path": "latent-map-enhancement/manifests/uieb.json",
+      "sha256": "aaf88c1bcf185db0af4b61a5230e6972fc3cdd6f64400ee242605ada1a9a6acc"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/frozen_protocol.json",
+      "sha256": "97972fce5a89ccd951069ec445595186c0484554313eb211884753753af77013"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/runs/lolv2_real/capacity/seed_0/run.json",
+      "sha256": "a6095ead764d14bb2443d9c9f5e158247f0bac64162b847452a4f7fe2870c49e"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/runs/lolv2_real/learned_maps/seed_0/run.json",
+      "sha256": "7c0376e166b781a022d9e6cf819fad7f7e4307971d6f09e16ee77a8daafc3182"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/runs/lolv2_real/rgb/seed_0/run.json",
+      "sha256": "2f9e9fb2c037841ff7e780c2d0077ccdc97651fd59c531b5080b2e617826348b"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/runs/lolv2_real/zero_maps/seed_0/run.json",
+      "sha256": "62de02aa4fb0d330e43f6cddaf0ae295ef4b6b3fd1b001636bf61e55b636ad2b"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/runs/uieb/capacity/seed_0/run.json",
+      "sha256": "41e19a18df0b23c8b81b1b14a2739929c02fedf0e5eae2856b056bd94d61e3c9"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/runs/uieb/learned_maps/seed_0/run.json",
+      "sha256": "a5e6d12ad3dfd81ebbee1a29bc59a6b78ba6fa12e8297d1d50d6d84f00a906f6"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/runs/uieb/rgb/seed_0/run.json",
+      "sha256": "6964fd4517ef14251633200dfd12a69853c51c7f330f3f3017dbc87e1a247db7"
+    },
+    {
+      "path": "latent-map-enhancement/outputs/predicted_maps_v1/runs/uieb/zero_maps/seed_0/run.json",
+      "sha256": "925b2c7f8eaecbae17afaa08d0e257f08507a7dfde5db2eb4724ccfaae047fa1"
+    },
+    {
+      "path": "latent-map-enhancement/pyproject.toml",
+      "sha256": "dd3e4bcc3066bf4fc83288c37a5d181822435796d334e48ca72745290322daff"
+    },
+    {
+      "path": "latent-map-enhancement/requirements-tested.txt",
+      "sha256": "d17ce5db89da49ca386c52b5f634b109d03885be124af67c14c977022b107eac"
+    },
+    {
+      "path": "latent-map-enhancement/scripts/experiment.py",
+      "sha256": "b2388b365f8acae822503c459bae5ff519b0efa72f49ad25d27cfd5a1be52daf"
+    },
+    {
+      "path": "latent-map-enhancement/scripts/run_logged.py",
+      "sha256": "b61824df8c1de1d31a7e24736eab8f54409faa4fdd9ec3ef6e725d08fb0d551a"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/__init__.py",
+      "sha256": "46a5b732ab8cb706cb000756800f8c13a3d3a9d5db2068afd374c1fc60f24bd1"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/__main__.py",
+      "sha256": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/_nafnet.py",
+      "sha256": "b8e7b0810e0e614ecbe0a7ed1af3e65a6007a6ec5d290bccd1bc090118bec560"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/cli.py",
+      "sha256": "b858a64aff850200204f7a2f6696d58d89904618945ba6d478ee32f221c98805"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/data.py",
+      "sha256": "7d4621211c426936c012c818f83945670bb44ccdb7d9716eeefc9c7a18b13b85"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/engine.py",
+      "sha256": "a14972c1c170388a0c2f46853cd8e6f915f11606181b486a3e87409bfa1a926a"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/metrics.py",
+      "sha256": "c38916c50ec0470ce44fc41a75e8006d4143dea71d0f0ec4adccf416cc580233"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/models.py",
+      "sha256": "1273aa73f10da2003c05a0d5238a41a3f97fc8a0ff012a7017bda45fe6ace481"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/report.py",
+      "sha256": "9dd3d88d6543152c3765a789a2508ec37606eae8facc44a465a47e8dcb8f989b"
+    },
+    {
+      "path": "latent-map-enhancement/src/latent_maps/utils.py",
+      "sha256": "34dc49d5a6c93b47b21bd9cf77801d78b6272ae20d48c5cc4532fb3901689bc8"
+    },
+    {
+      "path": "latent-map-enhancement/tests/test_data_resume.py",
+      "sha256": "d63a2dba81b075a7e2575a53819f23048731de2158295b1eef2eff328d421187"
+    },
+    {
+      "path": "latent-map-enhancement/tests/test_models_metrics.py",
+      "sha256": "d630a5bf4b404cbd8d9041bf1b06b23a5659b17c6bf46ad49304525cc37849ed"
+    },
+    {
+      "path": "latent-map-enhancement/tests/test_report.py",
+      "sha256": "56c259cd60a32245140878ede6ab5a3caae524993edfd6ee7d43699d356d86dd"
+    },
+    {
+      "path": "latent-map-enhancement/third_party/nafnet/LICENSE",
+      "sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+    },
+    {
+      "path": "latent-map-enhancement/third_party/nafnet/NAFNet_arch.py",
+      "sha256": "01b22270cc93f1bb90c0e3e4490e98b023fcf73f8552860b4a9ee880ce5c6967"
+    },
+    {
+      "path": "latent-map-enhancement/third_party/nafnet/SOURCE.json",
+      "sha256": "c5897c0264c78cf96d7964bb07b7336a9a3132cfb85ba4439d92bb9a7e623971"
+    },
+    {
+      "path": "latent-map-enhancement/third_party/nafnet/arch_util.py",
+      "sha256": "5a11af2e7c2d7a7b57c1fbd7e19cf0a50b4b4e8c7ae7dd203a915d7a707e7005"
+    },
+    {
+      "path": "latent-map-global-replication/README.md",
+      "sha256": "5adbaca6afcd034035c9048a3e9004cd16ae14e8b457c2fe85b3ec34fcefffe9"
+    },
+    {
+      "path": "latent-map-global-replication/configs/study.json",
+      "sha256": "26ded27aeae5228ce22e122c0de8a628074f54c2df58b1d3f603d86cd542b741"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/complete.json",
+      "sha256": "474d0a71442578e0ea2834161d0b811d6ac840360056ef77020c1d78a25667f0"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/diagnostics/seed_1/d_12/complete.json",
+      "sha256": "07cbd101c6d8941dc7d4b3d4d2258a497c69c83387d92620c90a384101fb5b5b"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/diagnostics/seed_1/d_6/complete.json",
+      "sha256": "d4b6cf332c65dcdced36263b83da04758c4bdbe832889a00bd27411db8da41e7"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/diagnostics/seed_2/d_12/complete.json",
+      "sha256": "7a97cd9f0866193b901bb4e3ed6f233ecdafb1df50f1b7ed8079d29db84de367"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/diagnostics/seed_2/d_6/complete.json",
+      "sha256": "6c8119e401ee7d733fca1230c778d11d99fcee691cdeac5a74b388ae1456310c"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/frozen.json",
+      "sha256": "9e66362efdceb1e7a4c7db36aadc08a4a9a2baea37466342f9767ef11cd112c4"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/runs/seed_1/d_12/complete.json",
+      "sha256": "2c63cf2dce0ea2822899e4c2f4ff96b07f36cf123a95becd23912a84d95ebc07"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/runs/seed_1/d_12/run.json",
+      "sha256": "305e0f368dcdf79a940ec1d24611f2b3e9ae109fd876d6d862fb0fd9cc0259f3"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/runs/seed_1/d_6/complete.json",
+      "sha256": "34a64338165d4c6ec4809413ec2ccb84261e0bdc75368e0e28d7e7a2edfda0bf"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/runs/seed_1/d_6/run.json",
+      "sha256": "5e273d0aabdcacb1f4db9a4295d91a895bb244330522ffe7abc616ba3253d119"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/runs/seed_2/d_12/complete.json",
+      "sha256": "bc627aa3094c629db24730edc51a34ca7c42c40e83d9938b24ed2a3b8ebb9a9a"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/runs/seed_2/d_12/run.json",
+      "sha256": "03f9a13068e4fa1149a0aa630f1dae3b64a6a9a71fa3c6453b40b9dffa0a1cb8"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/runs/seed_2/d_6/complete.json",
+      "sha256": "e692a0a34cbcd6b6fed4e9809ed36c9849f930e1762f80d07de9987e6f77f3b9"
+    },
+    {
+      "path": "latent-map-global-replication/outputs/global_dimension_replication_v1/runs/seed_2/d_6/run.json",
+      "sha256": "d386ca397deb16f90b4ad750101a517531d9c02991a79750653116c369665529"
+    },
+    {
+      "path": "latent-map-global-replication/scripts/bootstrap.py",
+      "sha256": "1938ba30644184834725127c3ffcfbf88f6aaaccd3e11cbb68fc26c663271e1e"
+    },
+    {
+      "path": "latent-map-global-replication/scripts/run.py",
+      "sha256": "b2bad470d6c3c49f0cc544b77434030a72ba245fd764422c165c8edcc3163e64"
+    },
+    {
+      "path": "latent-map-global-replication/scripts/run_logged.py",
+      "sha256": "6cc1c1f1b923ba693207ea870a0a0581348f8e24c311c8923cbb137c13057794"
+    },
+    {
+      "path": "latent-map-global-replication/src/replication/__init__.py",
+      "sha256": "f46dd66f6e43c2f62aa222dffccbea51833d718546a92892e8807496fe5b1ecd"
+    },
+    {
+      "path": "latent-map-global-replication/src/replication/experiment.py",
+      "sha256": "9561767ef208853dfde0aba6f1a277174050e4c5d9bb20e959700aff20321a2c"
+    },
+    {
+      "path": "latent-map-global-replication/src/replication/protocol.py",
+      "sha256": "132f079cd8de078f56f02c53b3fc2bc769198e919cd63ecbf594d1e6c8874caf"
+    },
+    {
+      "path": "latent-map-global-replication/src/replication/report.py",
+      "sha256": "9a7f26c09096aa93198fc38439bad6245d49583392e98292926b451a312db0e7"
+    },
+    {
+      "path": "latent-map-global-replication/tests/bootstrap.py",
+      "sha256": "1938ba30644184834725127c3ffcfbf88f6aaaccd3e11cbb68fc26c663271e1e"
+    },
+    {
+      "path": "latent-map-global-replication/tests/test_replication.py",
+      "sha256": "c31fecad37a42d6d1198e457df6af75116fc049008d769e649b37a2ff6392616"
+    },
+    {
+      "path": "latent-map-global-replication/validation/GPU_LAUNCH.md",
+      "sha256": "9a8c0a55fcbc0fc3f9b41b60e7657768f5533e0bb7bb9daa0a82c0819a89a372"
+    },
+    {
+      "path": "latent-map-global-replication/validation/RESULTS.md",
+      "sha256": "59349d84c0264727825168f3edec53a6ec8cc827c57e7f46509bc54fc90c2e9b"
+    },
+    {
+      "path": "latent-map-global-study/README.md",
+      "sha256": "a2248fc46e44a04b545015f4f255e27be8e033642ac44308af10f3abc2863954"
+    },
+    {
+      "path": "latent-map-global-study/configs/study.json",
+      "sha256": "2ef7893516656f296b1f593a2508d1862e82c39dd1db48795b6db4afe7f04890"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/complete.json",
+      "sha256": "06596595ea29a770acddb9260ebdd7559ec330d8583ad669a7c635a04ec4a5c8"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/H1/seed_0/A2_global/complete.json",
+      "sha256": "29010169a0616576e40fa7b904a7354f86bbd4f18656ee31026fb9a714d5d0fa"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/H1/seed_0/A3_both/complete.json",
+      "sha256": "61af72c340dda78fa43ee8c37293d498f61d86da11c26af1d2cf82c56a92011f"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/H1/seed_1/A2_global/complete.json",
+      "sha256": "c9ab8f741124a79018b560cb7e9159be1861d2a6f807f51a230b9726725cc5b2"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/H1/seed_1/A3_both/complete.json",
+      "sha256": "84d7a5929a9090f555790be9298b9d2a9dc4b9ac5e89bacec4c9beb0e377f0c5"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/H1/seed_2/A2_global/complete.json",
+      "sha256": "f4eb4d37de4ece4cc705a4873c128dad2f04df10415624dbd835b9836b1f2cd1"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/H1/seed_2/A3_both/complete.json",
+      "sha256": "013845de595f1faf7df161fe312c822532f6b5ba943838ecf2499a1a63dfb937"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/dimension/seed_0/d_1/complete.json",
+      "sha256": "c8688d24134d6c356b00eaa2794312334cbef920cd80325e3b9002ef7e9d1bad"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/dimension/seed_0/d_12/complete.json",
+      "sha256": "986265330abacb2a34bd302a707dcf16a4e8a8a58d05c26620d1bcca5fcc2dc6"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/diagnostics/dimension/seed_0/d_6/complete.json",
+      "sha256": "9e5a5d019d819dcce5988d50581023a0749cb42c2bacc21d0f22f821c7c67d35"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/frozen.json",
+      "sha256": "8d2cfa9cfbfe4875bb7dfbf6cfd342140df1292658bb0a5a6ba2c4c687b489fd"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/runs/seed_0/d_1/complete.json",
+      "sha256": "7e92fcb32008e7291c46c527f512156006b1200e38d68575cf3db56d32278313"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/runs/seed_0/d_1/run.json",
+      "sha256": "3ad6102d0c27e1c6ff21659f968cb15276a5a6b9a9b7e7136967953ed5532716"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/runs/seed_0/d_12/complete.json",
+      "sha256": "d39b139bf80c1b31eb89bcaf21505a705b356c0798277ac020957245f9a5dd43"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/runs/seed_0/d_12/run.json",
+      "sha256": "c21aefd804d21c65e9271c4c46d7ac5fd649cfdd3b8fd50c3f475a460bca3a01"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/runs/seed_0/d_6/complete.json",
+      "sha256": "9966b1f6733b54fa7132ddd84fc36e4cf1f8ee5e6c02976131799ab6425955ad"
+    },
+    {
+      "path": "latent-map-global-study/outputs/global_branch_followup_v1/runs/seed_0/d_6/run.json",
+      "sha256": "390c0425888c404cccfcc8214894111798239d1629ba2fed7280c02d8f6a2c9f"
+    },
+    {
+      "path": "latent-map-global-study/scripts/bootstrap.py",
+      "sha256": "0337593840db074d7abea89612655c1e280ae399fcd9acdc7fd2ab418b206301"
+    },
+    {
+      "path": "latent-map-global-study/scripts/run.py",
+      "sha256": "3de1b6d8805479c7425d664a909e7b97af4f7f0b8ec1f2d6daeb29aa07c02b34"
+    },
+    {
+      "path": "latent-map-global-study/scripts/run_logged.py",
+      "sha256": "3a662767dee7f7c18841a3a44bca01c76a119beb022b0134f7e53f301903da3f"
+    },
+    {
+      "path": "latent-map-global-study/src/global_study/__init__.py",
+      "sha256": "30deebe71a9e2ffd0d87bc60fb45067a0d0652e9f2b42463c4647ced978b4115"
+    },
+    {
+      "path": "latent-map-global-study/src/global_study/diagnostic.py",
+      "sha256": "53ece4f14e0d8f41443cf18f89e502cc13ca667a10a6c9d3737c8540b527f05a"
+    },
+    {
+      "path": "latent-map-global-study/src/global_study/models.py",
+      "sha256": "ff01b501833cccd2e2c5dd307491d6d984c03fd37eac7991e0b7bd016818ed45"
+    },
+    {
+      "path": "latent-map-global-study/src/global_study/protocol.py",
+      "sha256": "7ba0df6554504d755b3d642f3418c416b474c0340f426ccd81faf8d3aede9820"
+    },
+    {
+      "path": "latent-map-global-study/src/global_study/report.py",
+      "sha256": "5d1f19a7d65549a42e6903962c282ecf2b44e43dd3314b9da48e5312f3789a3f"
+    },
+    {
+      "path": "latent-map-global-study/src/global_study/training.py",
+      "sha256": "42ad092b8bccf5c2df1645b17063d33503efc2ad390d741d58914ddd48e8bbb9"
+    },
+    {
+      "path": "latent-map-global-study/tests/bootstrap.py",
+      "sha256": "0337593840db074d7abea89612655c1e280ae399fcd9acdc7fd2ab418b206301"
+    },
+    {
+      "path": "latent-map-global-study/tests/test_study.py",
+      "sha256": "85eddbe55811ca578c1f40327e67b2a4ce3641fe433b5cc7e4ef205de7acd518"
+    },
+    {
+      "path": "latent-map-global-study/validation/GPU_CHECKS.md",
+      "sha256": "ead94202cbcc28594c8eb0e711bf181a373c7e5a8d93fd3aa80a65757a952e63"
+    },
+    {
+      "path": "latent-map-global-study/validation/POSTRUN_AUDIT_2026-10-22.md",
+      "sha256": "a91e6885c6255554ec0c8cc0e2e87b2444e9efdc9fd731ac86f50578c39e4f5a"
+    },
+    {
+      "path": "latent-map-global-study/validation/RESULTS.md",
+      "sha256": "59e0665bfeac2d2d4f2d257607eee6441b5e5b0aff89f5058cb5a3cac094f3e7"
+    },
+    {
+      "path": "latent-map-global-test/README.md",
+      "sha256": "416e8362029b3a5ec35b10f893a83b6595d911a5956234b6c1e25a8a61be5a95"
+    },
+    {
+      "path": "latent-map-global-test/analysis/global_followup_test90_v1/ANALYSIS.md",
+      "sha256": "67be44715db47c84f622e774fee4a10cdd89d841a04c4e434a010f808ebcc6d6"
+    },
+    {
+      "path": "latent-map-global-test/outputs/global_followup_test90_v1/complete.json",
+      "sha256": "840c731a5642190abb8ee35279f7cca4cbfa311c735d616a5149298fb1a3e802"
+    },
+    {
+      "path": "latent-map-global-test/outputs/global_followup_test90_v1/protocol.json",
+      "sha256": "d9102b5c7cbf7d4c53bc75fffd34d5c7e49dc4fdd1a52548ed22bec85d5286d4"
+    },
+    {
+      "path": "latent-map-global-test/scripts/evaluate.py",
+      "sha256": "4b95da79135d358ee7075858da0ddaab41d9ca398d2ecc41911ef6595993dee5"
+    },
+    {
+      "path": "latent-map-init-diagnostics/HANDOFF.md",
+      "sha256": "dc642505e219636417f327f61488a7ae47ed90cadb101e3d0193a84cd7d9d154"
+    },
+    {
+      "path": "latent-map-init-diagnostics/README.md",
+      "sha256": "2d4b1e1cbe6d72941b928eac56d1558da93c7fa99469fba2b68ca4f01a858d93"
+    },
+    {
+      "path": "latent-map-init-diagnostics/configs/protocol.json",
+      "sha256": "d244dcf4c7902c92c32ba812d9d9707ad4574e090c22f5e693abfb2ca6b7a334"
+    },
+    {
+      "path": "latent-map-init-diagnostics/constraints.txt",
+      "sha256": "e0ce81d815e2802fe753343807abd86db33d8349a6023c53a46c816cad6af247"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/frozen_protocol.json",
+      "sha256": "5f0749f895c81030261409ba8fcdc3882d4e2eb691a40837052e322a571b1e29"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/bounded/seed_0/run.json",
+      "sha256": "b27039c58fb74f8ee606696e0f57582fefa1f7f25a1049d3174721e598167036"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/bounded/seed_0/run_complete.json",
+      "sha256": "083bb927e5417bbbee55e8b5df0f157f095ba8000d1a3ec964f0521a2e9c7657"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/bounded_zero_init/seed_0/run.json",
+      "sha256": "26e36d1e10b85fb370e67ccc2bdd04df0a9b9ae06fd42088bb59b81f17a720c1"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/bounded_zero_init/seed_0/run_complete.json",
+      "sha256": "c4a3959cae0ff4b138a68fc0601997095c35ce3e1205bfe60653a51098eeff1c"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/rgb/seed_0/run.json",
+      "sha256": "41736c1a85a4c6d68adfbfc1224b9f53451024242f701fe63e99292f1ed885e9"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/rgb/seed_0/run_complete.json",
+      "sha256": "fa65cce2e5929a247b54bfcc5fbadecbbc2b5aab71e3cc3edf6752b2f9a12995"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/unbounded/seed_0/run.json",
+      "sha256": "5fb1e488584f89c7066a44e440e2569df0a64643b69fc276e65630b2fcdaca6c"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/unbounded/seed_0/run_complete.json",
+      "sha256": "2a823219235efec7955bb00bbd875b7c0a638dc06bd8a6b1867d02cbabf81192"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/unbounded_zero_init/seed_0/run.json",
+      "sha256": "d116171c525e25d4fc69525ddd85899207d3b28b6b2cdf9226c570fad8a7cbcf"
+    },
+    {
+      "path": "latent-map-init-diagnostics/outputs/map_init_diagnostics_v1/nafnet/unbounded_zero_init/seed_0/run_complete.json",
+      "sha256": "ea9448d9618feec1f9e2274e0f43c5866a0ae13cad578b8e21b135eeb45ae6f7"
+    },
+    {
+      "path": "latent-map-init-diagnostics/research/NOVELTY.md",
+      "sha256": "895eab48202c2949bfe56dcad8db4b890bf937ddb1937fd0e2cc60a3406726ad"
+    },
+    {
+      "path": "latent-map-init-diagnostics/research/papers/CPLDP.txt",
+      "sha256": "2a558afc545020e00023a8c336f6729eecab5fbbdbcd922590bf8e24220739aa"
+    },
+    {
+      "path": "latent-map-init-diagnostics/scripts/experiment.py",
+      "sha256": "6c99203afa8798525c1c70f99c7a4c87b6d59bf5f0765923ff78674eace39501"
+    },
+    {
+      "path": "latent-map-init-diagnostics/scripts/run_logged.py",
+      "sha256": "10be894e8a0cc3b888203d4623ba8d869169889c14b2a3882611e90969111422"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/audit.py",
+      "sha256": "796f2e99090fc71873a2dd3fde180055b9b5670ed474dbe2533b08414d26807e"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/cli.py",
+      "sha256": "fe48911dbf79d56757215e36d77570f66f27fd999a643066c87071a2826a3480"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/diagnose.py",
+      "sha256": "2da9a7fa9c16eadfaa5dd673c132fb40b2907cc7ec5b82bd6f8f1f4d604bb4ce"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/engine.py",
+      "sha256": "9a23c4243c4f50e3f9f18e7018e19696add503aae8197e0aa58d127c3cc82cd8"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/models.py",
+      "sha256": "f491f65efb195410e7e5e316b1bb155e4f485761e111f4d210e68f866568243f"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/protocol.py",
+      "sha256": "155664f25ced79ad24d702c9e82c5ce5848c323aac1a42759c69ae33ba720b77"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/report.py",
+      "sha256": "46e027d683de6fb92bc7fc1ca41fb6456436e324db308dfe92159489865af562"
+    },
+    {
+      "path": "latent-map-init-diagnostics/src/diagnostics/validation.py",
+      "sha256": "dd0fea46281a4d095e7870da1901f700b257c0ba854dc3946a208065f1fd1644"
+    },
+    {
+      "path": "latent-map-init-diagnostics/tests/test_diagnostics.py",
+      "sha256": "317fd83c31151b79e91c6edeb2b1aef39d9c61d9df93110fe2deb22318c387b9"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/nafnet/LICENSE",
+      "sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/nafnet/NAFNet_arch.py",
+      "sha256": "01b22270cc93f1bb90c0e3e4490e98b023fcf73f8552860b4a9ee880ce5c6967"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/nafnet/SOURCE.json",
+      "sha256": "c5897c0264c78cf96d7964bb07b7336a9a3132cfb85ba4439d92bb9a7e623971"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/nafnet/arch_util.py",
+      "sha256": "5a11af2e7c2d7a7b57c1fbd7e19cf0a50b4b4e8c7ae7dd203a915d7a707e7005"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/nafnet/nafnet.py",
+      "sha256": "b8e7b0810e0e614ecbe0a7ed1af3e65a6007a6ec5d290bccd1bc090118bec560"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/nafnet/provenance.json",
+      "sha256": "6401ed1420e2cd9545324134e567384f61ddbd1e7a606a21ea9287ccab1721dd"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/README.md",
+      "sha256": "6228bf616774e8ed888cea79388db781ba438215e34312d4c794329b3e860a6a"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/docs/reference_methods_benchmark.md",
+      "sha256": "1675b2f6595045369215c15fc83fb3f219dd173c8b80a428167c7eaf9be9970e"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/docs/reported_results.md",
+      "sha256": "63e800aa7ed9f5c1627bb87d8e6e85b85e9f4d9ac6c99b17593ca570e4559355"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/docs/uwlyt_literature_review.md",
+      "sha256": "5aa2034e5f26e810937d5e07912d70778d1d680bd1375766b382516c63a6febf"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/outputs/reference_methods/environment.json",
+      "sha256": "70dcdb4ec2656d660d824ececa98595b34767da8e773bc7af90f0f53ec99c453"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/pyproject.toml",
+      "sha256": "4c33e3e99461f50116ccc5f663c9e99818a0185fc3b0d1f13e9e016737fb7f6d"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/requirements.txt",
+      "sha256": "28f800fbbba3ec1800fdb90c9f0c10ae9ce14445ed9a8a23916c095a343ce23d"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/__init__.py",
+      "sha256": "decd3fe583dbc096867e04a079d786c3310f29278f68d9541577bf9c7f8859fb"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/diagnostics/__init__.py",
+      "sha256": "5854b9f19dbb9d9b307f966619ca713c49e37594c5b8d1c501ae8fbdc2b6ee8b"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/diagnostics/check_physics_maps.py",
+      "sha256": "01d70c13a5e9792232af2924d96285062247ab42a5b12443fc27c84ea22fa6fa"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/experiments/__init__.py",
+      "sha256": "0e584f58c9585242887f1e91c5b5eeaba63f65a1cd5f9ea5a861be881392f1ec"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/experiments/ablation_euvp.py",
+      "sha256": "1798e09865ed3bdcb5d3dc1ee8cd3080ce0edc7e827a45e5e3ec44f58fa911d6"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/experiments/ablation_uieb.py",
+      "sha256": "087366d5f6b3c2a05c7e4c9d91f70e9a2e439f306379301aae627de5e247bc41"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/reference_methods_benchmark.py",
+      "sha256": "f7c1002377a0c873d335db3c7f1b4c9262d9739aa33ea9c9f5d70517d5d1796a"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/visualization/__init__.py",
+      "sha256": "fb3340c20e46a5eb6cfc6d782078d43363844abe1531e75e2dfc674982d8237f"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/visualization/ablation.py",
+      "sha256": "0d91f027e99868026638fd8c8f01cc348aa10f6a2ef2d08506abe0f83dbe5f12"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/visualization/plot_remaining.py",
+      "sha256": "4ab9e18008d4cd686a32928db4bc46264251071853f23eb4673772f2fca83fcd"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/scripts/visualization/replot_qualitative.py",
+      "sha256": "e9f784e6ce102961d0659489351c1df97f73d4dc437f3d57688be03f4fefaf6b"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/__init__.py",
+      "sha256": "c8f123672c1a8e76f6d118e042ddb341c4bb5ae5ecd7b1fb5f884f4b2688cc16"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/cli/__init__.py",
+      "sha256": "397aecd46a90f24ddf2d6bd2910ba31e98436ee7139155edefaa7bdb66409c5d"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/cli/evaluate.py",
+      "sha256": "5c86956e35639100d7395d7dcc97bf8fff71881ffa3e287c345651d2317d3be4"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/cli/profile.py",
+      "sha256": "a8c7077461dffc42a96fe404a3c871efc5d099d6b69d0f4272b8bca261de066a"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/cli/train.py",
+      "sha256": "379f89ea579d2be08c495e679f688ae536c33fe6cc1529b0536df167de327814"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/config.py",
+      "sha256": "09a8a3fa3ba1e4d2faabb46928dd2a582a858a95809566e0561afa5c6f1916b1"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/data/__init__.py",
+      "sha256": "124d2c54f05b83959de1bc77e3bfd7ad8c4ad85b004f50846cada3e5c0425a7a"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/data/datasets.py",
+      "sha256": "304bc7c2f2ed3a8e91864f7b2487630e8adc073b58ae09175c055b90cc1c4888"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/data/factory.py",
+      "sha256": "1f54967f9350d11080ed777d915f55b85b606995656e3734d13812a127aeeff1"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/data/utils.py",
+      "sha256": "acdc0c735479e2e7f9a0e4607c669f6484d284e4f6ab2d647b01fa900e2e7569"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/datasets/__init__.py",
+      "sha256": "5b0e0606286cc8e1cb548ebd219eeaf18499e3dea4ad545a951da02f329367e8"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/datasets/common.py",
+      "sha256": "351dae5241834ba926136316e2609eea865d979f9a850d0bffe74c3f4fe28227"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/datasets/lsui.py",
+      "sha256": "87750f25f31d5a6c225da755ceb9e8a595731875902143147fadef714f68ca7b"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/datasets/uieb.py",
+      "sha256": "97fe275d76f45425de96705f2a5d1eede0e5ec3303dc3cd4f6c33a216e340a88"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/evaluation/__init__.py",
+      "sha256": "645b39464f8c6cc56bcee570700140a0f6c62522c4929eab6a65ad86815579dd"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/evaluation/inference_benchmark.py",
+      "sha256": "76d947c631850bf9d5e70cadf79376e87fabc8bd694b8ccd1686497eed6c3c5a"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/evaluation/quality_metrics.py",
+      "sha256": "b5c24b2b1d91aa5b2e1783236b61b241e4987389f1f539905021b6bf310335ef"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/losses.py",
+      "sha256": "2ef5d7ce500379af833d34def9d1f6346402437706eb99b75a0c44d12e5b55d4"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/metrics.py",
+      "sha256": "0a1436e301d30dacd6d3332348f616418447cea25ab7c4a8259977f2a2809605"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/models/__init__.py",
+      "sha256": "1c88abd8d9511f22cfe0454ee4b3abd7464b8741678e7d004d11b99d79800a17"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/models/learnable_physics.py",
+      "sha256": "281920d5e99ff2c73c25c0ce806e94e67ca7cdaf38ff94a4e08083d4ee20e40e"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/models/mobilenet_unet.py",
+      "sha256": "e5eccc50f92312f9182c112303c7ef5e665f0b2e6b1abf5576d50e9a985a0c47"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/models/registry.py",
+      "sha256": "e0602cf434206f3deb12a9d113e3af162505afcb733742c6b84ed53ed30c43fd"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/models/unet.py",
+      "sha256": "5948f03e3883c6152ff2438113e88eafcb1acd36daa07c31120f5a875086c314"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/models/uwlyt.py",
+      "sha256": "d181f3da8eeb4217c1369c4ac3408b8912f44a0ee26d948d12ced2c779f33e80"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/physics/__init__.py",
+      "sha256": "9d46f4c1f592b33af1bc7605d8c736c6271cf675ff44e9466bd2e54598d2a624"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/physics/udcp.py",
+      "sha256": "5db0c0b20627241d3ddb9517a088bdd80cc5ce30e4599cae8b1e2616df4f2696"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/reference_methods/__init__.py",
+      "sha256": "cbfa0ed972691b6fc4612eb9c4d40d27e4ba30850ae7f2d3b659978a55591973"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/reference_methods/base.py",
+      "sha256": "4cfa1f420cd392aecd41f3fdb221d4e179537fc86eb2286d0f50570fb6149188"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/reference_methods/funie_gan.py",
+      "sha256": "2e2192b15614edaca1ccc413be36fb1badbb9ad9b5e19e7ea1814974052933b6"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/reference_methods/lpd_net.py",
+      "sha256": "cae87f934db01f582f51363cd039b0f5787e0832bc4dd02bf7efb7e140efcd7d"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/reference_methods/ucolor.py",
+      "sha256": "3b783f10beccfaba586e404683acfa85f1647b52b63071c502d06444140a7531"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/reference_methods/unet.py",
+      "sha256": "58d6044fce775d158cf733590ca10ea20f380e058c264194a12f2bca17f90a5a"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/reference_methods/uwformer.py",
+      "sha256": "bcb8178f1372c1a324918ae4dabe0f9cab2e39d215b85bac805b5e2005895f41"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/reference_methods/waternet.py",
+      "sha256": "a1f1602a9d5dbaaa4b73494866371d1ff419fed628500dbfdc4b940cd57483b1"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/training/__init__.py",
+      "sha256": "896fd09521cace1c62642717a2c173ea6ce64f57d13179f01a3b146b18923113"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/training/checkpoint.py",
+      "sha256": "a270cb2baf44bcf2e4141d6d4aaaaeb466a0bf010d673a7d68a207377a409648"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/training/runner.py",
+      "sha256": "e8751d57358d5d476301320c4586dd88d65292824a138799b79eec66d97630ea"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/training/schedulers.py",
+      "sha256": "f881dca608280414a0035f00d2fd38a526ce31a12bb9ac9bd2ec516344a8ac53"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/src/uwir/training/seed.py",
+      "sha256": "11c375b059ec72e35946a2bc794bd80bcf295e03740ba337a11e97b2dfc1fb76"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/conftest.py",
+      "sha256": "9cded6d6ef4ff9b68745ebc494b5b6d3cb81ceb2539d5dd6b66bce1e629c49a7"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_config_and_registry.py",
+      "sha256": "0db35c3224a84412ff281a0b717b9a996ae2cb7bbba6d37af489b1c59996ba87"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_learnable_physics.py",
+      "sha256": "ad66ec57ef53eda8c5ab503b7e94a415b92c1fc747c435c11209181fe3949f2a"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_metrics_and_physics.py",
+      "sha256": "567148427cae3dd006d1b37314ca599ef61c48154770a60a0a3f0b3b162a60f1"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_mobilenet_physics.py",
+      "sha256": "46f4cf0163052d5eff73ba4f82a622a263dbdd219b165968d43da4aa2dcb0e98"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_reference_benchmark.py",
+      "sha256": "8b22c1e5d49ec14871f22256257ca89b187971d9548db88372a3f3cb17503516"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_training_smoke.py",
+      "sha256": "7a87bf5e8bcc159e4c8a9a5d060e97b34b539cc5560470ed70b164648a2b9bf1"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_uwlyt.py",
+      "sha256": "1fc44fb44ab80b2544f3205d1101173bdbb97306bbf55196c75eacc64eaed9e4"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_uwlyt_protocol.py",
+      "sha256": "58b79c4f449bc871ff4ba8ca99b0b72ad4a139125102b7edf8c495f42bffc1ee"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_uwlytms.py",
+      "sha256": "98df1d187ca867ff875c0f5ad3d55307459b81d5bb4b9afd4841538c3d72effc"
+    },
+    {
+      "path": "latent-map-init-diagnostics/third_party/upstream/tests/test_uwlytv2.py",
+      "sha256": "8eb85bdb8b0616c39a0ffb00644147100aadfa0fefbf9232406c402683a723b0"
+    },
+    {
+      "path": "latent-map-unet-replication/HANDOFF.md",
+      "sha256": "5bd260c6ce7bcec301e324c7b0f4d77c5d98000bb4ad37d7d328b1a411643c83"
+    },
+    {
+      "path": "latent-map-unet-replication/README.md",
+      "sha256": "77830e62ef3c2c2c9748a2ec088060087410db563ee27665577a0d0cf010f4a7"
+    },
+    {
+      "path": "latent-map-unet-replication/analyses/2026-10-15/ANALYSIS.md",
+      "sha256": "9e91f78974b0917e86da3e335d2f0c636a036196b119dd73837b974fbf51c1a6"
+    },
+    {
+      "path": "latent-map-unet-replication/analyses/2026-10-15/analysis.json",
+      "sha256": "59b9ad02da71474aac25c7e8491dca5c3c4303780c92782738fd407cafb06778"
+    },
+    {
+      "path": "latent-map-unet-replication/analyses/2026-10-15/analysis.py",
+      "sha256": "facbf120b1460f573f2075f1b796ff1763cb7cf999ef2a4ed8ddb7955361f0bc"
+    },
+    {
+      "path": "latent-map-unet-replication/configs/protocol.json",
+      "sha256": "1ac0a6904afe98ae013ba6d300ca76b36119f2a1c48ba0e4caca0e18451e370b"
+    },
+    {
+      "path": "latent-map-unet-replication/constraints.txt",
+      "sha256": "e0ce81d815e2802fe753343807abd86db33d8349a6023c53a46c816cad6af247"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/frozen_protocol.json",
+      "sha256": "fb05ad7055e9d5b3af4b72213a0be45ff2c151c2dd914f6ba6377aad1580d2fe"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/bounded/seed_1/run.json",
+      "sha256": "8715e297b1387f5252ce2dea56ec9ecca8093afdbad722747cc6e1825ac8fe48"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/bounded/seed_1/run_complete.json",
+      "sha256": "6676525103eb3cc9d65570801a94784e01c65bae4655d6fa8fc3523a647a2dba"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/bounded/seed_2/run.json",
+      "sha256": "b3435d3a8f5d66bee129d7b77af754900ab1892405d51c32855bb1cfee2b909d"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/bounded/seed_2/run_complete.json",
+      "sha256": "083df37110b38f9463da9aa89065fa49d010f145f0ecf124c35fdfe905555946"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/capacity/seed_1/run.json",
+      "sha256": "16a3cccf25554867f3c9d6a31a0014b0d4799583fcfc232ff8f04bb27a647b6c"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/capacity/seed_1/run_complete.json",
+      "sha256": "bc699eef62e745456f7f604380280268959cc4798bb213f2fbf72475e660dc25"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/capacity/seed_2/run.json",
+      "sha256": "8e95c85f728233a5eed0c9dbd2bbfa9a13b1af3243f197c9e732b9ce8b61dfc0"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/capacity/seed_2/run_complete.json",
+      "sha256": "c70d36e936f00bdd5a5d4e447b1a843d520132b14c90c72f683788226a589356"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/rgb/seed_1/run.json",
+      "sha256": "a8c81c4b404fb6a9618f74db83b42f8b762fd1cbe44cb2a512ed8ddff37619b2"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/rgb/seed_1/run_complete.json",
+      "sha256": "eacb5ba015bdb871149938dc4d3468e9c3331112b6877aa63bf0ee21b74e38fb"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/rgb/seed_2/run.json",
+      "sha256": "58a683a1917db7e92f73d1f65b7fc2d172985653047032973232e061646ccb8a"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/rgb/seed_2/run_complete.json",
+      "sha256": "8e7eb5bc211552b1835326b7c7d9bc3e16c1df9bb9149ca95eb1c1bae2d460bd"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/unbounded/seed_1/run.json",
+      "sha256": "5fbc81c172eca5ad5842a1ca91814956973588b9ad8cdbfb3691cd2c49e88ced"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/unbounded/seed_1/run_complete.json",
+      "sha256": "6a7a1bee816fb9366bba50e7b080a5c3469bfbec5e87e6435d944b8ae0810097"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/unbounded/seed_2/run.json",
+      "sha256": "6ac9c0242ed9383696245edaa610f239bd1e9f58b7f00b4a0b5b7a38995fafad"
+    },
+    {
+      "path": "latent-map-unet-replication/outputs/unet_map_replication_v1/unet/unbounded/seed_2/run_complete.json",
+      "sha256": "f668f038113a3101d4edc1791de023083ffd29bab0258d362ad056a41b93219f"
+    },
+    {
+      "path": "latent-map-unet-replication/research/NOVELTY.md",
+      "sha256": "001614692ef190f6feccc24c62a10591cb4765910a9f0e25d5abdad19084d416"
+    },
+    {
+      "path": "latent-map-unet-replication/research/PAPER_OUTLINE.md",
+      "sha256": "443b2e1889a88613fdff38df8dd53b41f4d3dbf00eca44a98c9a90bb574d0e42"
+    },
+    {
+      "path": "latent-map-unet-replication/research/PRIOR_PAPER_AUDIT.md",
+      "sha256": "45f5b0a178cfa49f2803e3d0726aa3121aceaace1b860dc285c0375e62c03ce0"
+    },
+    {
+      "path": "latent-map-unet-replication/research/TERMINOLOGY.md",
+      "sha256": "ceceb4bb996035b0769f8fbd0fa049ed78c8a73c522b3a73c4d3efcdc640711b"
+    },
+    {
+      "path": "latent-map-unet-replication/research/papers/2026_EIDT_UWIR.txt",
+      "sha256": "53268b976f336ca3e4ea5e920b299fc224e2c3a9015ed6825775fac78464c281"
+    },
+    {
+      "path": "latent-map-unet-replication/research/papers/SOURCE.json",
+      "sha256": "e8c0cc09c62f152fcdf6004ee4f45fec27f05af338ced3fc0451245f70ad9258"
+    },
+    {
+      "path": "latent-map-unet-replication/scripts/experiment.py",
+      "sha256": "eb69adb39d8fb50472552f8431dda3963ffd2745f34e58c598cbcd3f83ea5225"
+    },
+    {
+      "path": "latent-map-unet-replication/scripts/run_logged.py",
+      "sha256": "5a186cb1bfc75df844c58129842cc59ef9eb7157ff955dab10b81ee790910590"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/audit.py",
+      "sha256": "c07c6684323af8a0dc35eff25a11c21c7cf3bcb77ab67f7eaeec130ac294f409"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/cli.py",
+      "sha256": "64d3f1373a73a69fa7f3ac87ec1e8fe29c2867a79c868b82b0a25deefd7f2e65"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/diagnose.py",
+      "sha256": "b2ab5034bd7ab2e122d07e7d2dad04838331dd20f1e7804ab705951a77b1b50b"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/engine.py",
+      "sha256": "9a23c4243c4f50e3f9f18e7018e19696add503aae8197e0aa58d127c3cc82cd8"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/historical.py",
+      "sha256": "95d4f0c11acf581d83d9239c95fd626233b89bdcb8a6eacf9308966fc0da8923"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/models.py",
+      "sha256": "e44cc4562e7b3a45d66bbb2e2693fe617feb8016f1d0bb52c460f388addcffa9"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/protocol.py",
+      "sha256": "437eecb90b418e093b080c9beec84b76acf744cb9d45916d400e3da41e972421"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/report.py",
+      "sha256": "2b77db93130e4ede5d09b80bcbad6691272e41c13affd12f9b44093adad6027b"
+    },
+    {
+      "path": "latent-map-unet-replication/src/diagnostics/validation.py",
+      "sha256": "5472ca5a0d8097a491366a26470a6cd6f7048aa360989f50cef29aae31ea1a36"
+    },
+    {
+      "path": "latent-map-unet-replication/tests/test_diagnostics.py",
+      "sha256": "d3595e3acdda2b1aaf522548b8ec9aa62991311bd3c83c25a84af8a351982335"
+    },
+    {
+      "path": "latent-map-unet-replication/tests/test_reporting.py",
+      "sha256": "90ff8e9afee9f81023823699cf7b0363533d216412e37ed241ef695ec6262085"
+    },
+    {
+      "path": "latent-map-unet-replication/third_party/nafnet/LICENSE",
+      "sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+    },
+    {
+      "path": "latent-map-unet-replication/third_party/nafnet/NAFNet_arch.py",
+      "sha256": "01b22270cc93f1bb90c0e3e4490e98b023fcf73f8552860b4a9ee880ce5c6967"
+    },
+    {
+      "path": "latent-map-unet-replication/third_party/nafnet/SOURCE.json",
+      "sha256": "c5897c0264c78cf96d7964bb07b7336a9a3132cfb85ba4439d92bb9a7e623971"
+    },
+    {
+      "path": "latent-map-unet-replication/third_party/nafnet/arch_util.py",
+      "sha256": "5a11af2e7c2d7a7b57c1fbd7e19cf0a50b4b4e8c7ae7dd203a915d7a707e7005"
+    },
+    {
+      "path": "latent-map-unet-replication/third_party/nafnet/nafnet.py",
+      "sha256": "b8e7b0810e0e614ecbe0a7ed1af3e65a6007a6ec5d290bccd1bc090118bec560"
+    },
+    {
+      "path": "latent-map-unet-replication/third_party/nafnet/provenance.json",
+      "sha256": "6401ed1420e2cd9545324134e567384f61ddbd1e7a606a21ea9287ccab1721dd"
+    },
+    {
+      "path": "latent-map-unet-screen/README.md",
+      "sha256": "b87f07bfe40737ff93d2045dbded4428c53722443200a35ceafa068e3ac81665"
+    },
+    {
+      "path": "latent-map-unet-screen/configs/screen.json",
+      "sha256": "13aaa94fca90f1d745be28604fe1750c68b304904e954ed03d3de55ebdf27856"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/complete.json",
+      "sha256": "59834e9a55c012b51d8db97c1a4fbe24dc06c972444a9f197f5d084b53ceb109"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/frozen.json",
+      "sha256": "e837a9f90112e35ff1520dce3965a0ca834937d66446d4c2ced3943ef80c3333"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/manifest.json",
+      "sha256": "e3d2b39cf7f8160181e99ea4f6c4240acce3ea82d5fa9b49948ddf16278b1333"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/runs/seed_0/control/complete.json",
+      "sha256": "42b9d222c80604f9dfb33e0f728d52b35acae137e218e88952fde325ae81aa1c"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/runs/seed_0/control/identity.json",
+      "sha256": "f7883f7e6ab2339f139ebdf360d013e2b7d0a1a1ab444481253a095397df8ff3"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/runs/seed_0/multiscale/complete.json",
+      "sha256": "74461833b562f9c53e219baa46bf685f738fcd44d53172a8d76e11c52748353e"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/runs/seed_0/multiscale/identity.json",
+      "sha256": "4b45c63731244815810cc1b103a4469fea4256c9505e78ae1fd7b713e818170c"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/runs/seed_0/residual_refine/complete.json",
+      "sha256": "22c21396cb681637dbc8fb97e206e94d21847611b4ac18165b436fbfe0540c6c"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/runs/seed_0/residual_refine/identity.json",
+      "sha256": "91c9fe0cfaf9e07c312679a614f83215bb4533c6b0101df37915841df0945f85"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/runs/seed_0/skip_gate/complete.json",
+      "sha256": "05c96b918ea85716226eaa6034658716ae07fd894494d79b04416b67356dc0a0"
+    },
+    {
+      "path": "latent-map-unet-screen/outputs/unet_arch_screen_v1/runs/seed_0/skip_gate/identity.json",
+      "sha256": "3349c06aae286e6bb934219980bc9bec4df1167b558249a3d3c9b6807beef140"
+    },
+    {
+      "path": "latent-map-unet-screen/scripts/run.py",
+      "sha256": "3bcb8c58f9da06c59bd24da1b77cd162a322c579cc8cfae4c7633369b80a8fa5"
+    },
+    {
+      "path": "latent-map-unet-screen/src/models.py",
+      "sha256": "623a2e0f70c3c46f53c67b87f4b7229035accbaefeb8360ff8d23c7c62a24c76"
+    },
+    {
+      "path": "latent-map-unet-screen-test/ANALYSIS.md",
+      "sha256": "dae9e31e7551c43ec4c460f19107af5cc6392f04123f49a9125b09cb3c61f453"
+    },
+    {
+      "path": "latent-map-unet-screen-test/README.md",
+      "sha256": "e9a270bcd715e0cb92bdb38ee75aea7039d10ee33a785bbd40b4522c3dea998e"
+    },
+    {
+      "path": "latent-map-unet-screen-test/outputs/unet_arch_screen_test_v1/complete.json",
+      "sha256": "8895d92d043f139830d717ea4e7bf854323c6c38387589ec6e3b2bcd1a025c1b"
+    },
+    {
+      "path": "latent-map-unet-screen-test/outputs/unet_arch_screen_test_v1/protocol.json",
+      "sha256": "06936d5e1709484539fa1bba5c344c8e9db96f61e57a9cf562bdfa1cfbd14d91"
+    },
+    {
+      "path": "latent-map-unet-screen-test/scripts/evaluate.py",
+      "sha256": "f84923380f771d03390831aa516d4b514a71280207bb4f7635295be5e341080d"
+    },
+    {
+      "path": "latent-map-unet-test/README.md",
+      "sha256": "2c7407b4601a5c0c5c0aa7f0b77c32a6d5813075d79e35ceaade19a9604c515a"
+    },
+    {
+      "path": "latent-map-unet-test/outputs/unet_uieb_test90_v1/complete.json",
+      "sha256": "2509cbcd31010ba21800a5bb98c27e4b70ad9a198c14decd6eb94dbf718bccb7"
+    },
+    {
+      "path": "latent-map-unet-test/outputs/unet_uieb_test90_v1/protocol.json",
+      "sha256": "3862e9a70def31ad5c81a78df6f3b4c0ba3c6b7110e602d63942f7670f14c810"
+    },
+    {
+      "path": "latent-map-unet-test/scripts/evaluate.py",
+      "sha256": "0aaf8cbb017768e5886dcd9a0b41475103ae487d372e49a42ec873569b15b022"
+    },
+    {
+      "path": "latent-map-unet-transfer/README.md",
+      "sha256": "93f87621d30d738e332d220b0498e645a0fe9d28aac421d7a64790b61497ac60"
+    },
+    {
+      "path": "latent-map-unet-transfer/configs/protocol.yaml",
+      "sha256": "77a4d6c0b3ec8351368e3c3a513798f8ee5d41cc69290220a9908668b5cf4e7b"
+    },
+    {
+      "path": "latent-map-unet-transfer/copy_provenance.json",
+      "sha256": "4ea3eb03bdd349b69f0cc3d77de344d4032f3b1c7d5acaa3cd110cf403b511ed"
+    },
+    {
+      "path": "latent-map-unet-transfer/manifests/lolv2_real.json",
+      "sha256": "6c0beb234ba14f26e7417fac362d7e26a7a2240741ea947d5089d53dbbf67afe"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/frozen_protocol.json",
+      "sha256": "def05845766a07f793cdc2fb0d08996af8a762cd8f62607afd73db766280faab"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/capacity/seed_0/run.json",
+      "sha256": "ea7344a03079e285082785bc2a3029e3847e87959afc7c9fbf201a5332ad1865"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/capacity/seed_1/run.json",
+      "sha256": "8651aad2d6846ca506c3ba86c35b04d8ef69cb360e562751a66cfe3e9d0b746d"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/capacity/seed_2/run.json",
+      "sha256": "45269879754ae0e5801bd0dee3bdd10fc87b1f7f2f79319514057297241f0cc3"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/learned_maps/seed_0/run.json",
+      "sha256": "be141cfdddf29592e8c6528d95ff20cd9c8afaee746dac74f321dea35ddccd7f"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/learned_maps/seed_1/run.json",
+      "sha256": "ea973c8cb0bec60cc1895d32ff28671f0cfc0e34dd131616c96477bac74d9edf"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/learned_maps/seed_2/run.json",
+      "sha256": "7453e6c03481ee63594f30fdcf2fe29a720d4fd265a163904462dc3f5f473095"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/rgb/seed_0/run.json",
+      "sha256": "de130adb8054829d256363b2a3e2e8fa0bfb1d6dfe72b715607718992f8fadbb"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/rgb/seed_1/run.json",
+      "sha256": "34dbaa2b785ce422cafe292e3525a093803d4c6f2db4bdb852ea91e9b9a86298"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/rgb/seed_2/run.json",
+      "sha256": "3d9190e35b63780d67bc8fff6f63d00a96b53e23cbd3e65afb945d247a387fee"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/zero_maps/seed_0/run.json",
+      "sha256": "f9b19b2acf8ecb8ced0829f3a0acf8a9116b23df183575aa95ab084ff9e121ca"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/zero_maps/seed_1/run.json",
+      "sha256": "5f4479d7d03dd8b963f95ef5d4a7b6dda498c2f14f03e0ccf51619e3f9414fc5"
+    },
+    {
+      "path": "latent-map-unet-transfer/outputs/unet_lol_lsui_v1/runs/lolv2_real/zero_maps/seed_2/run.json",
+      "sha256": "0991fc47486044f78f54fea9ad56458c5963da4dd1c3bf423e863e05b386b1e0"
+    },
+    {
+      "path": "latent-map-unet-transfer/pyproject.toml",
+      "sha256": "4e3e00536bb0357ab876229e37517c8d64f3fff1ff71fffd2232086d28f49465"
+    },
+    {
+      "path": "latent-map-unet-transfer/requirements-tested.txt",
+      "sha256": "d17ce5db89da49ca386c52b5f634b109d03885be124af67c14c977022b107eac"
+    },
+    {
+      "path": "latent-map-unet-transfer/scripts/experiment.py",
+      "sha256": "b2388b365f8acae822503c459bae5ff519b0efa72f49ad25d27cfd5a1be52daf"
+    },
+    {
+      "path": "latent-map-unet-transfer/scripts/preflight.py",
+      "sha256": "364715c5beba303435b4258b68d9ef561148c79672f50838a7a85cc9b12d8e95"
+    },
+    {
+      "path": "latent-map-unet-transfer/scripts/run_logged.py",
+      "sha256": "ca9ac1bfad423da8b585cd07469c19a03a1572f6c51cc30426b50a077503726e"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/__init__.py",
+      "sha256": "46a5b732ab8cb706cb000756800f8c13a3d3a9d5db2068afd374c1fc60f24bd1"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/__main__.py",
+      "sha256": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/_nafnet.py",
+      "sha256": "b8e7b0810e0e614ecbe0a7ed1af3e65a6007a6ec5d290bccd1bc090118bec560"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/_unet.py",
+      "sha256": "5948f03e3883c6152ff2438113e88eafcb1acd36daa07c31120f5a875086c314"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/cli.py",
+      "sha256": "45bc49f0313ec2ee0df11d28336b09fc347335f40200dd0cdcc674b8b7c2f8c0"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/data.py",
+      "sha256": "7d4621211c426936c012c818f83945670bb44ccdb7d9716eeefc9c7a18b13b85"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/engine.py",
+      "sha256": "c37fb845b9ba1d463dbe11435656857567accea1fcd054882bdcdf5cba25b41c"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/metrics.py",
+      "sha256": "c38916c50ec0470ce44fc41a75e8006d4143dea71d0f0ec4adccf416cc580233"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/models.py",
+      "sha256": "f4274d7b2c20ed8c3e86cd743f467ddbaf97b3a14fecb08cbf5afe6c894e754b"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/report.py",
+      "sha256": "0aa6be603128533cda88800eab70f29161dd7dd7d3ab6235944861d1f87292b2"
+    },
+    {
+      "path": "latent-map-unet-transfer/src/latent_maps/utils.py",
+      "sha256": "5e43e619d8e2948ff48c109bd68a149a72eba27c4abd8d7733fb0ebcb3fed2a5"
+    },
+    {
+      "path": "latent-map-unet-transfer/tests/test_data_resume.py",
+      "sha256": "2eff07ea559c623209af39a3d6d4b8703f77985e493cd429507df51fdd621a11"
+    },
+    {
+      "path": "latent-map-unet-transfer/tests/test_models_metrics.py",
+      "sha256": "11788bc107377330a1cf3d27150602e98daabf54aa3804e82b366fa053fd489f"
+    },
+    {
+      "path": "latent-map-unet-transfer/tests/test_report.py",
+      "sha256": "c98b3ef925e19c72dd00e8ea6a20e69f4e07e4af386bc50e22b3c9891150ceb8"
+    },
+    {
+      "path": "latent-map-unet-transfer/third_party/nafnet/LICENSE",
+      "sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+    },
+    {
+      "path": "latent-map-unet-transfer/third_party/nafnet/NAFNet_arch.py",
+      "sha256": "01b22270cc93f1bb90c0e3e4490e98b023fcf73f8552860b4a9ee880ce5c6967"
+    },
+    {
+      "path": "latent-map-unet-transfer/third_party/nafnet/SOURCE.json",
+      "sha256": "c5897c0264c78cf96d7964bb07b7336a9a3132cfb85ba4439d92bb9a7e623971"
+    },
+    {
+      "path": "latent-map-unet-transfer/third_party/nafnet/arch_util.py",
+      "sha256": "5a11af2e7c2d7a7b57c1fbd7e19cf0a50b4b4e8c7ae7dd203a915d7a707e7005"
+    },
+    {
+      "path": "latent-map-unet-transfer/third_party/unet/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "latent-map-unet-transfer/third_party/unet/SOURCE.json",
+      "sha256": "ab4b429650d01624e801326bdc8a4f1587258614def22da93981b60c019d8bf0"
+    },
+    {
+      "path": "latent-map-unet-transfer/third_party/unet/unet.py",
+      "sha256": "5948f03e3883c6152ff2438113e88eafcb1acd36daa07c31120f5a875086c314"
+    },
+    {
+      "path": "uieb-latent-reproduction/HANDOFF.md",
+      "sha256": "46c754a41c99768cca840c97aa2ac3639e455eb6da84cb2b2cdb6a59e1496853"
+    },
+    {
+      "path": "uieb-latent-reproduction/README.md",
+      "sha256": "da4c356edaf31669412c38d1139c375e3fdc7c8e492b82f703bc745713144f3b"
+    },
+    {
+      "path": "uieb-latent-reproduction/configs/protocol.json",
+      "sha256": "08fb195c94518731af0cc6eb9489e0691f9fb4a73ff2edd30c6a364dba9b4ad9"
+    },
+    {
+      "path": "uieb-latent-reproduction/constraints.txt",
+      "sha256": "e0ce81d815e2802fe753343807abd86db33d8349a6023c53a46c816cad6af247"
+    },
+    {
+      "path": "uieb-latent-reproduction/outputs/original_uieb_seed0_v1/frozen_protocol.json",
+      "sha256": "0402b46daf329f819888d2d594ae6c3c699ea05cb1f13ffe3401d45081183973"
+    },
+    {
+      "path": "uieb-latent-reproduction/outputs/original_uieb_seed0_v1/manifest.json",
+      "sha256": "d1002820c04f6be1e161a998c91f04b40dffa500f24411862ea7f1d9d21462dc"
+    },
+    {
+      "path": "uieb-latent-reproduction/outputs/original_uieb_seed0_v2/frozen_protocol.json",
+      "sha256": "3fc5d35c9c0a6da09c00fd8edd3d23e71d534bb5d7d8bb7c63ecdd40fd4e2a24"
+    },
+    {
+      "path": "uieb-latent-reproduction/outputs/original_uieb_seed0_v2/latent/seed_0/run.json",
+      "sha256": "0b79091f9848efe78c9ed19647d6bb284f8e45e9879d95c8a98de12d07db3372"
+    },
+    {
+      "path": "uieb-latent-reproduction/outputs/original_uieb_seed0_v2/latent/seed_0/run_complete.json",
+      "sha256": "a51fbdae57ea30f22f14ccf1e4100d6f34252a657b75b6cca3bc80551911e9e7"
+    },
+    {
+      "path": "uieb-latent-reproduction/outputs/original_uieb_seed0_v2/manifest.json",
+      "sha256": "d1002820c04f6be1e161a998c91f04b40dffa500f24411862ea7f1d9d21462dc"
+    },
+    {
+      "path": "uieb-latent-reproduction/outputs/original_uieb_seed0_v2/rgb/seed_0/run.json",
+      "sha256": "c63a3ca516100db23d28c2a4af2452ccd1479d0602a9f47cb476d36802fe4031"
+    },
+    {
+      "path": "uieb-latent-reproduction/outputs/original_uieb_seed0_v2/rgb/seed_0/run_complete.json",
+      "sha256": "e971338ed9ee4e9b71ccde81583842d176231872db35dfecb85a3388442c3fb8"
+    },
+    {
+      "path": "uieb-latent-reproduction/scripts/experiment.py",
+      "sha256": "86aeeb2ea5dd300f5b4da36f2e44e98d4cbda54520349f78084cf45b32ad483d"
+    },
+    {
+      "path": "uieb-latent-reproduction/scripts/run_logged.py",
+      "sha256": "2c74ab607b3f6155e0c066a13d8732639ee8bdd53d0f1edfceae65fb0f763648"
+    },
+    {
+      "path": "uieb-latent-reproduction/src/reproduction/__init__.py",
+      "sha256": "4773daddfb47947ff50f4435410132ec56ddb7b755b48656eab2b96185bd35de"
+    },
+    {
+      "path": "uieb-latent-reproduction/src/reproduction/audit.py",
+      "sha256": "9985892a05c4db0ce760946faeeaabd0644ec8844466ac2f6cfe695bf888897d"
+    },
+    {
+      "path": "uieb-latent-reproduction/src/reproduction/cli.py",
+      "sha256": "d4fa049098421ee1bc75f24144e796bb5b4adaa8616eb9b95f2a189f26b43569"
+    },
+    {
+      "path": "uieb-latent-reproduction/src/reproduction/engine.py",
+      "sha256": "ba4a6398b5a36d0a54b368d995ab3a1a755a2cf78372f802c43cce17021cf310"
+    },
+    {
+      "path": "uieb-latent-reproduction/src/reproduction/protocol.py",
+      "sha256": "d7833f3c0c0d27a62e099c05e88930a01386f944c3947209c23cc61844293a68"
+    },
+    {
+      "path": "uieb-latent-reproduction/src/reproduction/report.py",
+      "sha256": "c431604e8f456ae40d428bcb5ad986854ec5925a6fde67d4452bdaec0418ae86"
+    },
+    {
+      "path": "uieb-latent-reproduction/src/reproduction/validation.py",
+      "sha256": "c5905ab797793b2beaedbc81c57a54d263b21e3ed9133d938f8dfc8999892f45"
+    },
+    {
+      "path": "uieb-latent-reproduction/tests/test_protocol.py",
+      "sha256": "d3d1868eb0d64c2cf33ed78353b58b22941f0c896e9ef8a6c99c27754a40d56a"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/README.md",
+      "sha256": "6228bf616774e8ed888cea79388db781ba438215e34312d4c794329b3e860a6a"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/docs/reference_methods_benchmark.md",
+      "sha256": "1675b2f6595045369215c15fc83fb3f219dd173c8b80a428167c7eaf9be9970e"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/docs/reported_results.md",
+      "sha256": "63e800aa7ed9f5c1627bb87d8e6e85b85e9f4d9ac6c99b17593ca570e4559355"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/docs/uwlyt_literature_review.md",
+      "sha256": "5aa2034e5f26e810937d5e07912d70778d1d680bd1375766b382516c63a6febf"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/outputs/reference_methods/environment.json",
+      "sha256": "70dcdb4ec2656d660d824ececa98595b34767da8e773bc7af90f0f53ec99c453"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/pyproject.toml",
+      "sha256": "4c33e3e99461f50116ccc5f663c9e99818a0185fc3b0d1f13e9e016737fb7f6d"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/requirements.txt",
+      "sha256": "28f800fbbba3ec1800fdb90c9f0c10ae9ce14445ed9a8a23916c095a343ce23d"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/__init__.py",
+      "sha256": "decd3fe583dbc096867e04a079d786c3310f29278f68d9541577bf9c7f8859fb"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/diagnostics/__init__.py",
+      "sha256": "5854b9f19dbb9d9b307f966619ca713c49e37594c5b8d1c501ae8fbdc2b6ee8b"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/diagnostics/check_physics_maps.py",
+      "sha256": "01d70c13a5e9792232af2924d96285062247ab42a5b12443fc27c84ea22fa6fa"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/experiments/__init__.py",
+      "sha256": "0e584f58c9585242887f1e91c5b5eeaba63f65a1cd5f9ea5a861be881392f1ec"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/experiments/ablation_euvp.py",
+      "sha256": "1798e09865ed3bdcb5d3dc1ee8cd3080ce0edc7e827a45e5e3ec44f58fa911d6"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/experiments/ablation_uieb.py",
+      "sha256": "087366d5f6b3c2a05c7e4c9d91f70e9a2e439f306379301aae627de5e247bc41"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/reference_methods_benchmark.py",
+      "sha256": "f7c1002377a0c873d335db3c7f1b4c9262d9739aa33ea9c9f5d70517d5d1796a"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/visualization/__init__.py",
+      "sha256": "fb3340c20e46a5eb6cfc6d782078d43363844abe1531e75e2dfc674982d8237f"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/visualization/ablation.py",
+      "sha256": "0d91f027e99868026638fd8c8f01cc348aa10f6a2ef2d08506abe0f83dbe5f12"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/visualization/plot_remaining.py",
+      "sha256": "4ab9e18008d4cd686a32928db4bc46264251071853f23eb4673772f2fca83fcd"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/scripts/visualization/replot_qualitative.py",
+      "sha256": "e9f784e6ce102961d0659489351c1df97f73d4dc437f3d57688be03f4fefaf6b"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/__init__.py",
+      "sha256": "c8f123672c1a8e76f6d118e042ddb341c4bb5ae5ecd7b1fb5f884f4b2688cc16"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/cli/__init__.py",
+      "sha256": "397aecd46a90f24ddf2d6bd2910ba31e98436ee7139155edefaa7bdb66409c5d"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/cli/evaluate.py",
+      "sha256": "5c86956e35639100d7395d7dcc97bf8fff71881ffa3e287c345651d2317d3be4"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/cli/profile.py",
+      "sha256": "a8c7077461dffc42a96fe404a3c871efc5d099d6b69d0f4272b8bca261de066a"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/cli/train.py",
+      "sha256": "379f89ea579d2be08c495e679f688ae536c33fe6cc1529b0536df167de327814"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/config.py",
+      "sha256": "09a8a3fa3ba1e4d2faabb46928dd2a582a858a95809566e0561afa5c6f1916b1"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/data/__init__.py",
+      "sha256": "124d2c54f05b83959de1bc77e3bfd7ad8c4ad85b004f50846cada3e5c0425a7a"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/data/datasets.py",
+      "sha256": "304bc7c2f2ed3a8e91864f7b2487630e8adc073b58ae09175c055b90cc1c4888"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/data/factory.py",
+      "sha256": "1f54967f9350d11080ed777d915f55b85b606995656e3734d13812a127aeeff1"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/data/utils.py",
+      "sha256": "acdc0c735479e2e7f9a0e4607c669f6484d284e4f6ab2d647b01fa900e2e7569"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/datasets/__init__.py",
+      "sha256": "5b0e0606286cc8e1cb548ebd219eeaf18499e3dea4ad545a951da02f329367e8"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/datasets/common.py",
+      "sha256": "351dae5241834ba926136316e2609eea865d979f9a850d0bffe74c3f4fe28227"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/datasets/lsui.py",
+      "sha256": "87750f25f31d5a6c225da755ceb9e8a595731875902143147fadef714f68ca7b"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/datasets/uieb.py",
+      "sha256": "97fe275d76f45425de96705f2a5d1eede0e5ec3303dc3cd4f6c33a216e340a88"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/evaluation/__init__.py",
+      "sha256": "645b39464f8c6cc56bcee570700140a0f6c62522c4929eab6a65ad86815579dd"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/evaluation/inference_benchmark.py",
+      "sha256": "76d947c631850bf9d5e70cadf79376e87fabc8bd694b8ccd1686497eed6c3c5a"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/evaluation/quality_metrics.py",
+      "sha256": "b5c24b2b1d91aa5b2e1783236b61b241e4987389f1f539905021b6bf310335ef"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/losses.py",
+      "sha256": "2ef5d7ce500379af833d34def9d1f6346402437706eb99b75a0c44d12e5b55d4"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/metrics.py",
+      "sha256": "0a1436e301d30dacd6d3332348f616418447cea25ab7c4a8259977f2a2809605"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/models/__init__.py",
+      "sha256": "1c88abd8d9511f22cfe0454ee4b3abd7464b8741678e7d004d11b99d79800a17"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/models/learnable_physics.py",
+      "sha256": "281920d5e99ff2c73c25c0ce806e94e67ca7cdaf38ff94a4e08083d4ee20e40e"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/models/mobilenet_unet.py",
+      "sha256": "e5eccc50f92312f9182c112303c7ef5e665f0b2e6b1abf5576d50e9a985a0c47"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/models/registry.py",
+      "sha256": "e0602cf434206f3deb12a9d113e3af162505afcb733742c6b84ed53ed30c43fd"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/models/unet.py",
+      "sha256": "5948f03e3883c6152ff2438113e88eafcb1acd36daa07c31120f5a875086c314"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/models/uwlyt.py",
+      "sha256": "d181f3da8eeb4217c1369c4ac3408b8912f44a0ee26d948d12ced2c779f33e80"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/physics/__init__.py",
+      "sha256": "9d46f4c1f592b33af1bc7605d8c736c6271cf675ff44e9466bd2e54598d2a624"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/physics/udcp.py",
+      "sha256": "5db0c0b20627241d3ddb9517a088bdd80cc5ce30e4599cae8b1e2616df4f2696"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/reference_methods/__init__.py",
+      "sha256": "cbfa0ed972691b6fc4612eb9c4d40d27e4ba30850ae7f2d3b659978a55591973"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/reference_methods/base.py",
+      "sha256": "4cfa1f420cd392aecd41f3fdb221d4e179537fc86eb2286d0f50570fb6149188"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/reference_methods/funie_gan.py",
+      "sha256": "2e2192b15614edaca1ccc413be36fb1badbb9ad9b5e19e7ea1814974052933b6"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/reference_methods/lpd_net.py",
+      "sha256": "cae87f934db01f582f51363cd039b0f5787e0832bc4dd02bf7efb7e140efcd7d"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/reference_methods/ucolor.py",
+      "sha256": "3b783f10beccfaba586e404683acfa85f1647b52b63071c502d06444140a7531"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/reference_methods/unet.py",
+      "sha256": "58d6044fce775d158cf733590ca10ea20f380e058c264194a12f2bca17f90a5a"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/reference_methods/uwformer.py",
+      "sha256": "bcb8178f1372c1a324918ae4dabe0f9cab2e39d215b85bac805b5e2005895f41"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/reference_methods/waternet.py",
+      "sha256": "a1f1602a9d5dbaaa4b73494866371d1ff419fed628500dbfdc4b940cd57483b1"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/training/__init__.py",
+      "sha256": "896fd09521cace1c62642717a2c173ea6ce64f57d13179f01a3b146b18923113"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/training/checkpoint.py",
+      "sha256": "a270cb2baf44bcf2e4141d6d4aaaaeb466a0bf010d673a7d68a207377a409648"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/training/runner.py",
+      "sha256": "e8751d57358d5d476301320c4586dd88d65292824a138799b79eec66d97630ea"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/training/schedulers.py",
+      "sha256": "f881dca608280414a0035f00d2fd38a526ce31a12bb9ac9bd2ec516344a8ac53"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/src/uwir/training/seed.py",
+      "sha256": "11c375b059ec72e35946a2bc794bd80bcf295e03740ba337a11e97b2dfc1fb76"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/conftest.py",
+      "sha256": "9cded6d6ef4ff9b68745ebc494b5b6d3cb81ceb2539d5dd6b66bce1e629c49a7"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_config_and_registry.py",
+      "sha256": "0db35c3224a84412ff281a0b717b9a996ae2cb7bbba6d37af489b1c59996ba87"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_learnable_physics.py",
+      "sha256": "ad66ec57ef53eda8c5ab503b7e94a415b92c1fc747c435c11209181fe3949f2a"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_metrics_and_physics.py",
+      "sha256": "567148427cae3dd006d1b37314ca599ef61c48154770a60a0a3f0b3b162a60f1"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_mobilenet_physics.py",
+      "sha256": "46f4cf0163052d5eff73ba4f82a622a263dbdd219b165968d43da4aa2dcb0e98"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_reference_benchmark.py",
+      "sha256": "8b22c1e5d49ec14871f22256257ca89b187971d9548db88372a3f3cb17503516"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_training_smoke.py",
+      "sha256": "7a87bf5e8bcc159e4c8a9a5d060e97b34b539cc5560470ed70b164648a2b9bf1"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_uwlyt.py",
+      "sha256": "1fc44fb44ab80b2544f3205d1101173bdbb97306bbf55196c75eacc64eaed9e4"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_uwlyt_protocol.py",
+      "sha256": "58b79c4f449bc871ff4ba8ca99b0b72ad4a139125102b7edf8c495f42bffc1ee"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_uwlytms.py",
+      "sha256": "98df1d187ca867ff875c0f5ad3d55307459b81d5bb4b9afd4841538c3d72effc"
+    },
+    {
+      "path": "uieb-latent-reproduction/third_party/upstream/tests/test_uwlytv2.py",
+      "sha256": "8eb85bdb8b0616c39a0ffb00644147100aadfa0fefbf9232406c402683a723b0"
+    }
+  ]
+}

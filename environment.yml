@@ -1,0 +1,7 @@
+name: learnable-input-uwir
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.16
+  - pip
+# Then follow the pinned CUDA-wheel and project installation commands in README.

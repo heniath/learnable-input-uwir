@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "environment": {
+    "python": "3.11.16",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "numpy": "2.4.6",
+      "Pillow": "12.3.0",
+      "scipy": "1.17.1",
+      "scikit-image": "0.25.2",
+      "kornia": "0.7.3"
+    },
+    "cuda_runtime": "12.8",
+    "cudnn": 91900,
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+  },
+  "smoke_checks": [
+    {
+      "recipe": "h1_pilot",
+      "passed": true,
+      "condition": "A2_global",
+      "seed": 0,
+      "frozen_identity": "d8db28ca806faf09f04521ee5a245df94acf2a0e99b5b3055fcd5fa6bd38ce2b",
+      "optimizer_updates": 2,
+      "loss": 1.935774803161621,
+      "validation_subset": {
+        "psnr": 11.77022766875331,
+        "ssim": 0.309439804404974
+      },
+      "checkpoint_state_exact": true,
+      "scope": "Functionality only; not evidence of restoration quality"
+    },
+    {
+      "recipe": "h2_pilot",
+      "passed": true,
+      "condition": "B3_combined",
+      "seed": 0,
+      "frozen_identity": "0546efff277bcd0d4f68dd02b3265712a4737704c9114b6ed9db3ab2d1d5e6c1",
+      "optimizer_updates": 2,
+      "loss": 1.917422890663147,
+      "validation_subset": {
+        "psnr": 11.769894481098904,
+        "ssim": 0.30909083038568497
+      },
+      "checkpoint_state_exact": true,
+      "scope": "Functionality only; not evidence of restoration quality"
+    },
+    {
+      "recipe": "global_dimension",
+      "passed": true,
+      "condition": "d6",
+      "seed": 0,
+      "frozen_identity": "f8babd1706636e312698f891083368c4b2edd4b9dae0746f07f27a12e5a9474e",
+      "optimizer_updates": 2,
+      "loss": 1.9236655235290527,
+      "validation_subset": {
+        "psnr": 11.766358058802222,
+        "ssim": 0.3089835159480572
+      },
+      "checkpoint_state_exact": true,
+      "scope": "Functionality only; not evidence of restoration quality"
+    },
+    {
+      "recipe": "unet_baselines",
+      "passed": true,
+      "condition": "capacity",
+      "seed": 0,
+      "frozen_identity": "ad7ac0af6afd75fb0b96f9ef141490833c3088682c5671e246675a4186a00fea",
+      "optimizer_updates": 2,
+      "loss": 1.9137727618217468,
+      "validation_subset": {
+        "psnr": 11.763096209087134,
+        "ssim": 0.3088728338479996
+      },
+      "checkpoint_state_exact": true,
+      "scope": "Functionality only; not evidence of restoration quality"
+    },
+    {
+      "recipe": "nafnet_baselines",
+      "passed": true,
+      "condition": "bounded",
+      "seed": 0,
+      "frozen_identity": "1acfdaa649e300ad5b099074fd9e47fb78667a597701278a622ad6d645d54e73",
+      "optimizer_updates": 2,
+      "loss": 1.7635265588760376,
+      "validation_subset": {
+        "psnr": 8.959853536254926,
+        "ssim": 0.2637089155614376
+      },
+      "checkpoint_state_exact": true,
+      "scope": "Functionality only; not evidence of restoration quality"
+    }
+  ],
+  "training_integration": {
+    "one_epoch_training_completed": true,
+    "completed_run_preserved": true,
+    "evaluation_anchor_passed": true,
+    "global_diagnostic_passed": true,
+    "scope": "Functionality only; not a model quality result"
+  },
+  "temporary_binary_artifacts_retained": false
+}

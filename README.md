@@ -1,9 +1,13 @@
-# Learnable Input for Underwater Image Restoration
+# Spatial and Global Conditioning for Underwater Image Restoration
 
 Research code for studying **which spatial/global latent conditions help image
 restoration, where they should enter a U-Net, and whether their allocation should
 adapt to the image**. This repository consolidates the completed workstation
 studies into one package while retaining the historical evidence.
+
+The research focus is the allocation of conditioning across locations and images.
+The package retains its `learnable-input-uwir` name; learned auxiliary inputs are
+the experimental mechanism, and adaptive allocation is an untested hypothesis.
 
 The maps are learned restoration features. Their names do not establish physical
 transmission or background-light semantics. H1 has three-seed pilot evidence;
@@ -15,6 +19,41 @@ H2 has one-seed pilot evidence. H3/H4 remain planned work.
 | H2 | Does their utility depend on conditioning location? |
 | H3 | Does the useful location depend on observable image characteristics? |
 | H4 | Does image-adaptive allocation improve over fixed allocation? |
+
+## Pilot results
+
+Historical UIEB test90, validation-selected checkpoints, 30-epoch pilots and
+256-pixel center crops. H1 values are mean ± sample SD across three paired
+training seeds; these are not confidence intervals.
+
+| H1 condition | Test PSNR (dB) | Test SSIM | Paired Δ PSNR vs RGB (dB) |
+|---|---:|---:|---:|
+| RGB | 20.160 ± 0.185 | 0.8764 ± 0.0025 | — |
+| Spatial | 19.887 ± 0.173 | 0.8737 ± 0.0024 | −0.273 ± 0.227 |
+| Global | 21.565 ± 0.047 | 0.8971 ± 0.0024 | +1.405 ± 0.202 |
+| Joint | 21.598 ± 0.077 | 0.8951 ± 0.0028 | +1.438 ± 0.159 |
+
+Joint minus global is only +0.033 ± 0.056 dB, with lower mean SSIM.
+The global benefit and the uncertain incremental spatial benefit are distinct
+observations. See the [complete H1 report](results/h1_test/FINDINGS.md).
+
+H2 has one seed. Each difference below uses H2's own input-only baseline.
+
+| H2 condition | Validation PSNR (dB) | Test PSNR (dB) | Δ validation / Δ test (dB) |
+|---|---:|---:|---:|
+| Input only | 21.985 | 21.513 | — |
+| Spatial skip | 21.819 | 21.947 | −0.165 / +0.434 |
+| Global bottleneck | 21.968 | 21.604 | −0.016 / +0.091 |
+| Combined | 22.066 | 21.423 | +0.081 / −0.090 |
+
+Validation and test rankings differ; these results do not establish a preferred
+placement. See [H2 validation](results/h2_validation/FINDINGS.md) and
+[H2 test](results/h2_test/FINDINGS.md). Test90 has historical exposure and scene
+independence remains unresolved. No significance, convergence or independent
+generalization claim follows from these tables.
+
+Next is a [five-seed H2 confirmation and independent-evaluation plan](docs/H2_CONFIRMATION.md).
+The recipe is specified; no confirmation runs are reported as completed.
 
 ## Layout
 
@@ -94,6 +133,7 @@ Long runs can be launched in `tmux`, with stdout/stderr saved to an output log.
 |---|---|---|
 | `h1_pilot.json` | RGB / spatial / global / joint | 30-epoch schedule prefix |
 | `h2_pilot.json` | Input / spatial skip / global FiLM / combined | Same pilot budget |
+| `h2_confirmation.json` | Same four H2 conditions; fresh seeds 1–5 | 20 separate 30-epoch pilot runs; not started |
 | `global_dimension.json` | Global-only d=1/3/6/12 | Same pilot budget |
 | `unet_baselines.json` | RGB / bounded / unbounded / capacity | Up to 100 epochs, patience 20 |
 | `nafnet_baselines.json` | Same baseline conditions, NAFNet | Same full stopping rule |
@@ -110,6 +150,12 @@ liuwir evaluate --config configs/h1_pilot.json --condition A2_global --seed 0 --
 liuwir diagnose --config configs/h1_pilot.json --condition A2_global --seed 0 --checkpoint outputs/h1_pilot_consolidated_v1/runs/seed_0/A2_global/best.pt --data-root /path/to/UIEB --destination outputs/diagnostics/global_seed0
 liuwir compare --candidate outputs/evaluation/global_seed0/per_image.csv --baseline /path/to/rgb/per_image.csv
 ```
+
+`compare` reports paired image mean differences and PSNR win counts; it does not
+compute confidence intervals. For completed confirmation runs, the
+[seed-summary script](scripts/summarize_h2_confirmation.py) reports paired
+training-seed effects and pointwise 95% t intervals on validation, conditional
+on the fixed images. See the plan for assumptions and interpretation limits.
 
 Use `--split test` only after fixing the scientific comparison and checkpoint
 selection. `--save-images` optionally writes PNGs; metrics use float predictions
@@ -130,6 +176,8 @@ are not yet hosted as downloadable releases. Until weights are distributed,
 external users must retrain to reproduce inference. Older LOL-v2, initialization,
 component and warm-start studies retain their exact source/config records in the
 archive; their distinct protocols are not silently routed through the UIEB CLI.
+The [checkpoint release plan](docs/CHECKPOINT_RELEASE.md) lists the proposed
+initial assets, recorded hashes and inference commands; it is not a published release.
 
 ## Attribution
 

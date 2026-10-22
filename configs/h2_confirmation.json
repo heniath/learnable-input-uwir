@@ -1,0 +1,33 @@
+{
+  "experiment_id": "h2_confirmation_consolidated_v1",
+  "model_family": "conditioning",
+  "backbone": "unet",
+  "conditions": [
+    "B0_input",
+    "B1_spatial_skip",
+    "B2_global_bottleneck",
+    "B3_combined"
+  ],
+  "seeds": [1, 2, 3, 4, 5],
+  "crop_size": 256,
+  "training": {
+    "epochs": 30,
+    "scheduler_epochs": 100,
+    "early_stopping": false,
+    "reset_training_rng": true,
+    "batch_size": 4,
+    "workers": 2,
+    "cpu_threads": 4,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "eta_min": 1e-06,
+    "amp_initial_scale": 1024.0,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "loss_weights": {
+      "l1": 1.0,
+      "perceptual": 1.0,
+      "ssim": 0.0
+    }
+  }
+}

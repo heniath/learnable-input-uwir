@@ -78,6 +78,12 @@ interventions establish sensitivity to that intervention, not physical semantics
 H3 requires independently defined image proxies and independent confirmation;
 H4 requires controls for fixed allocation, extra capacity and image–gate pairing.
 
+The [H2 confirmation plan](H2_CONFIRMATION.md) specifies a separate five-fresh-seed
+replication at the unchanged pilot budget, paired training-seed intervals and a
+subsequent independent-evaluation design. It is planned work, not additional
+completed evidence. H2 confirmation does not authorize new test90 model selection
+or reuse of challenge images as paired-reference evaluation data.
+
 New output IDs explicitly identify consolidated-code runs. Model and preprocessing
 equivalence are audited against original sources/checkpoints; that audit is
 not a claim that all complete historical training trajectories were rerun.
